@@ -1,7 +1,14 @@
 import React from "react";
 
+import Navbar from "../navbar/Navbar.jsx";
+
 const Home = () => {
-  return <div className="bg-black">Hello</div>;
+  return (
+    <div>
+      <Navbar/>
+      <div className="bg-[]"></div>
+    </div>
+  );
 };
 
 export default Home;
