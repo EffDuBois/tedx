@@ -11,7 +11,7 @@
   .glow{
     color: white;
     font-weight: bold;
-    text-shadow: 2px 2px 20px red, -2px 2px 20px red, 2px -2px 20px red, -2px -2px 20px red,  2px 2px 20px red, -2px 2px 20px red, 2px -2px 20px red, -2px -2px 20px red, 2px 2px 4px white, -2px 2px 5px white, 2px -2px 5px white, -2px -2px 5px white;
+    text-shadow: 2px 2px 10px red, -2px 2px 10px red, 2px -2px 10px red, -2px -2px 10px red,  2px 2px 20px rgba(255, 0, 0, 0.5), -2px 2px 20px rgba(255, 0, 0, 0.5), 2px -2px 20px rgba(255, 0, 0, 0.5), -2px -2px 20px rgba(255, 0, 0, 0.5), 0px 0px 5px white;
 
   }
 }
