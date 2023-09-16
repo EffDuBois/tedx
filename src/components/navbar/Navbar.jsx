@@ -1,12 +1,10 @@
 import React from "react";
-import logo from "../../resources/editedLogo.png";
-import { Link } from "react-router-dom";
 import NavbarButton from "../Buttons/NavbarButton";
 import TEDxLogo from "../Buttons/TEDxLogo";
 
 const Navbar = () => {
-    return(
-        <header class="border-glow flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-black text-sm py-3 sm:py-0">
+  return (
+    <header class="borderb-glow flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-black text-sm py-3 sm:py-0 fixed">
       <nav
         class="relative max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
         aria-label="Global"
@@ -19,7 +17,7 @@ const Navbar = () => {
             >
               Brand
             </a> */}
-          <TEDxLogo/>
+          <TEDxLogo />
           <div class="sm:hidden">
             <button
               type="button"
@@ -83,6 +81,7 @@ const Navbar = () => {
               Blog
             </a> */}
             <NavbarButton>About Us</NavbarButton>
+            <NavbarButton>Speakers</NavbarButton>
             <NavbarButton>Event</NavbarButton>
             <NavbarButton>Contact Us</NavbarButton>
             <NavbarButton>Register</NavbarButton>
@@ -103,7 +102,7 @@ const Navbar = () => {
         <button>Register</button>
       </div> */}
     </header>
-    );
+  );
 };
 
 export default Navbar;

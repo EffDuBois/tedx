@@ -1,12 +1,50 @@
 import React from "react";
 
-import Navbar from "../navbar/Navbar.jsx";
+import logo from "../../resources/logo-TEDx_black_vertical.png";
+import img_bit from "../../resources/img-bit.jpg";
 
 const Home = () => {
   return (
     <div>
-      <Navbar/>
-      <div className="bg-[]"></div>
+      {/* <div
+        style={{ "--image-url": `url(${logo})` }}
+        className="w-full h-96 bg-[image:var(--image-url)]"
+      ></div> */}
+      <div className="h-screen items-center flex bg-white">
+        <img src={logo} />
+      </div>
+      <div className="w-3/4 m-auto mt-32 mb-16">
+        <h1>
+          About <span className="text-white glow">TEDx</span>
+        </h1>
+        <p>
+          A global movement dedicated to propagating the ideas to communities
+          around the globe through independently organized TED-like events,
+          meant to inspire conversation, prompt innovation and create
+          connections. Officially, the ‘X’ in TEDx stands for independently
+          organized TED event, but it’s more of a TED ‘multiplied’.
+        </p>
+      </div>
+      <div className="w-3/4 m-auto my-16">
+        <h1>
+          About <span className="text-white glow">TEDxBITBangalore</span>
+        </h1>
+        <p>
+          TEDxBITBangalore is a channel to propagate ideas globally through a
+          local platform. We hold a university-level license from TED to
+          organise an independent TED event to effectuate the same. It was
+          initiated by a humble group of young visionaries dedicated to bringing
+          together, ideas worth spreading. In this fifth edition of
+          TEDxBITBangalore, we aspire to nurture the ideas that bear the
+          potential to bring about a change in the world.
+        </p>
+      </div>
+      <div className="w-3/4 m-auto my-20 border-glow ">
+        <div>
+          
+        </div>
+        <img className="hover:opacity-50 w-full" src={img_bit} />
+      </div>
     </div>
   );
 };
