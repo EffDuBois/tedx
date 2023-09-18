@@ -81,7 +81,7 @@ const Navbar = () => {
               Blog
             </a> */}
             <NavbarButton to="/">Home</NavbarButton>
-            <NavbarButton to="/event">Event</NavbarButton>
+            <NavbarButton to="/events">Event</NavbarButton>
             <NavbarButton to="/speakers">Speakers</NavbarButton>
             <NavbarButton to="/about">About Us</NavbarButton>
             

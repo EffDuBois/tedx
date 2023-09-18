@@ -5,11 +5,11 @@ import React from "react";
 
 const Socials = () => {
   return (
-    <div className="bg-white text-black py-20 px-10 flex flex-row justify-between sm:flex-col">
-      <p className=" text-sm">
+    <div className="bg-white text-black py-20 px-10 flex sm:flex-row justify-between flex-col">
+      <p className=" text-sm self-center">
         This independent TEDx event is operated under license from TED.
       </p>
-      <div>
+      <div className="self-center">
         <a target="blank" href="https://www.instagram.com/tedxbitbangalore/">
           <FontAwesomeIcon
             className="mx-3"
