@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../../resources/logo-TEDx_black_vertical.png";
+import logo from "../../resources/logo-Insightx-crop.jpg";
 import img_bit from "../../resources/img-bit.jpg";
 
 const Home = () => {
@@ -10,8 +10,8 @@ const Home = () => {
         style={{ "--image-url": `url(${logo})` }}
         className="w-full h-96 bg-[image:var(--image-url)]"
       ></div> */}
-      <div className="h-screen items-center flex bg-white">
-        <img src={logo} />
+      <div className="h-screen items-center flex bg-black">
+        <img className="w-3/4 m-auto" src={logo} />
       </div>
       <div className="w-3/4 m-auto mt-32 mb-16">
         <h1>
