@@ -3,14 +3,14 @@ import React from "react";
 import logo from "../../resources/logo-Insightx-crop.jpg";
 import img_bit from "../../resources/img-bit.jpg";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <div>
       {/* <div
         style={{ "--image-url": `url(${logo})` }}
         className="w-full h-96 bg-[image:var(--image-url)]"
       ></div> */}
-      <div className="h-screen items-center flex bg-black">
+      <div className="h-[80vh] items-center flex bg-black">
         <img className="w-3/4 m-auto" src={logo} />
       </div>
       <div className="w-3/4 m-auto mt-32 mb-16">
@@ -49,4 +49,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;

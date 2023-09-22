@@ -3,13 +3,13 @@ import logo from "../../resources/logo-Insightx-crop.jpg";
 import logo_nandini from "../../resources/logo-nandini.jpeg";
 import Counter from "../Counters/Counter";
 
-const Events = () => {
+const EventsPage = () => {
   return (
-    <div>
-      <div className="h-screen items-center flex bg-black">
+    <div className="w-full">
+      <div className="h-[80vh] items-center flex bg-black">
         <img className="w-3/4 m-auto" src={logo} alt="Theme Video" />
       </div>
-      <div className="m-20 w-4/5 h-32 mx-auto justify-center flex">
+      <div className="m-20 w-[60vw] h-32 mx-auto justify-center flex">
         <button className="glow-button  w-3/5 h-20">
           <span className="m-5 text-xl">BUY TICKETS NOW!</span>
         </button>
@@ -50,4 +50,4 @@ const Events = () => {
   );
 };
 
-export default Events;
+export default EventsPage;

@@ -12,13 +12,12 @@
 }
 
 @layer components {
-  .border-glow{
+  .border-glow {
     border: 1px white;
     border-style: solid;
     border-radius: 3px;
     box-shadow: red 0px 0px 15px, white 0px 0px 1px, white 0px 0px 3px,
-      red 0px 0px 15px inset, white 0px 0px 1px inset,
-      white 0px 0px 3px inset;
+      red 0px 0px 15px inset, white 0px 0px 1px inset, white 0px 0px 3px inset;
   }
   .borderb-glow {
     border: 2px white;
@@ -49,15 +48,15 @@
     background-color: var(--btn-color);
     border-radius: 1em;
     outline: none;
-    box-shadow: 0 0 1em .25em var(--glow-color),
-           0 0 4em 1em var(--glow-spread-color),
-           inset 0 0 .75em .25em var(--glow-color);
-    text-shadow: 0 0 .5em var(--glow-color);
+    box-shadow: 0 0 1em 0.25em var(--glow-color),
+      0 0 4em 1em var(--glow-spread-color),
+      inset 0 0 0.75em 0.25em var(--glow-color);
+    text-shadow: 0 0 0.5em var(--glow-color);
     position: relative;
     transition: all 0.3s;
-   }
-   
-   .glow-button::after {
+  }
+
+  .glow-button::after {
     pointer-events: none;
     content: "";
     position: absolute;
@@ -67,23 +66,91 @@
     width: 100%;
     background-color: var(--glow-spread-color);
     filter: blur(2em);
-    opacity: .7;
-    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
-   }
-   
-   .glow-button:hover {
+    opacity: 0.7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+  }
+
+  .glow-button:hover {
     color: var(--btn-color);
     background-color: var(--glow-color);
-    box-shadow: 0 0 1em .25em var(--glow-color),
-           0 0 4em 2em var(--glow-spread-color),
-           inset 0 0 .75em .25em var(--glow-color);
-   }
-   
-   .glow-button:active {
-    box-shadow: 0 0 0.6em .25em var(--glow-color),
-           0 0 2.5em 2em var(--glow-spread-color),
-           inset 0 0 .5em .25em var(--glow-color);
-   }
+    box-shadow: 0 0 1em 0.25em var(--glow-color),
+      0 0 4em 2em var(--glow-spread-color),
+      inset 0 0 0.75em 0.25em var(--glow-color);
+  }
+
+  .glow-button:active {
+    box-shadow: 0 0 0.6em 0.25em var(--glow-color),
+      0 0 2.5em 2em var(--glow-spread-color),
+      inset 0 0 0.5em 0.25em var(--glow-color);
+  }
+  .bg-rotatingx {
+    position: relative;
+    width: 470px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 1;
+  }
+
+  .bg-rotatingx::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    width: 75%;
+    height: 100%;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 2px;
+    transform: skewX(0deg);
+    transition: 0.5s;
+    filter: blur(10);
+  }
+
+  .bg-rotatingx::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50;
+    width: 78%;
+    height: 100%;
+    background: #fff;
+    border-radius: 2px;
+    transition: 0.5s;
+    filter: blur(10px);
+  }
+
+  .bg-rotatingx:hover:before,
+  .bg-rotatingx:hover:after {
+    transform: skewX(27deg) scaleX(0.4);
+  }
+  .x2:hover:before,
+  .x2:hover:after {
+    transform: skewX(-27deg) scaleX(0.4);
+  }
+
+  .bg-rotatingx:before,
+  .bg-rotatingx:after {
+    background: linear-gradient(315deg, #ff0000, #ff0000);
+  }
+
+  .bg-rotatingx .content {
+    position: relative;
+    width: 400px;
+    height: 580px;
+    padding: 5px 5px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    z-index: 1;
+    transform: 0.5s;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 body {
