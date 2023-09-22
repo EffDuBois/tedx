@@ -17,7 +17,6 @@ const SpeakersPage = () => {
         <PersonCard />
         <PersonCard />
         <PersonCard />
-        <PersonCard />
       </div>
     </div>
   );

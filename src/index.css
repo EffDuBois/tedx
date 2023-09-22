@@ -139,7 +139,6 @@
     position: relative;
     width: 400px;
     height: 580px;
-    padding: 5px 5px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -147,10 +146,9 @@
     z-index: 1;
     transform: 0.5s;
     color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    transition: 0.2s;
   }
+  
 }
 
 body {
