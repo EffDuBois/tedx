@@ -1,6 +1,12 @@
 import React from "react";
-import PersonCard from "../Cards/PersonCard";
-import speakerImages from "../../resources/speakers/getSpeakerImages";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from "@fortawesome/free-regular-svg-icons";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+
+import PeopleTray from "../Trays/PeopleTray";
+
+import speakerImages from "../../resources/Speakers/getSpeakerImages";
 
 const SpeakersPage = () => {
   return (
@@ -8,10 +14,28 @@ const SpeakersPage = () => {
       <h1>
         Our <span className="text-white glow">Speakers</span>
       </h1>
-      <div className="my-20 flex justify-between flex-wrap">
-        {speakerImages.map((img, index) => (
-          <PersonCard key={index} src={img.path} name={img.name} title={img.title}/>
-        ))}
+      <PeopleTray imageArray={speakerImages} />
+      <div className="flex w-full justify-evenly">
+        <div className="flex flex-col content-center item-center">
+          <FontAwesomeIcon
+            icon={faClock}
+            size="2xl"
+            style={{ color: "#ff1414" }}
+          />
+          <p className="font-bold text-center">Date and Time</p>
+          <p className="text-center"> November 25, 2023</p>
+          <p className="text-center">Time</p>
+        </div>
+        <div className="flex flex-col content-center item-center">
+          <FontAwesomeIcon
+            icon={faLocationDot}
+            size="2xl"
+            style={{ color: "#ff1414" }}
+          />
+          <p className="font-bold text-center">Venue</p>
+          <p className="text-center"> Bangalore Institute of Technology,</p>
+          <p className="text-center">KR Road, VV Puram, Bangalore - 560094</p>
+        </div>
       </div>
     </div>
   );

@@ -133,10 +133,8 @@
 
   .bg-rotatingx:before,
   .bg-rotatingx:after {
-    background: rgb(255, 92, 92);
-    box-shadow: red 0px 0px 15px, white 0px 0px 1px 1px, white 0px 0px 3px,
-      red 0px -10px 15px -8px inset, white 0px 6px 1px -6px inset,
-      white 0px 4px 3px -6px inset;
+    background: rgb(249, 32, 32);
+  
   }
 
   .bg-rotatingx .content {
