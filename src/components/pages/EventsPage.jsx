@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../resources/logo-Insightx-crop.jpg";
 import Counter from "../Counters/Counter";
-import sponsorImages from "../../resources/Sponsors/getSponsorImages";
+import sponsorImages from "../../resources/sponsors/getSponsorImages";
 const EventsPage = () => {
   return (
     <div className="w-full">
