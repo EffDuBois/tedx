@@ -40,9 +40,6 @@ const HomePage = () => {
         </p>
       </div>
       <div className="w-3/4 m-auto my-20 border-glow ">
-        <div>
-          
-        </div>
         <img className="hover:opacity-50 w-full" src={img_bit} />
       </div>
     </div>

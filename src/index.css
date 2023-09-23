@@ -85,8 +85,6 @@
   }
   .bg-rotatingx {
     position: relative;
-    width: 470px;
-    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +96,7 @@
     content: " ";
     position: absolute;
     top: 0;
-    width: 75%;
+    width: 90%;
     height: 100%;
     text-decoration: none;
     background: #fff;
@@ -112,8 +110,7 @@
     content: "";
     position: absolute;
     top: 0;
-    left: 50;
-    width: 78%;
+      width: 90%;
     height: 100%;
     background: #fff;
     border-radius: 2px;
@@ -124,6 +121,10 @@
   .bg-rotatingx:hover:before,
   .bg-rotatingx:hover:after {
     transform: skewX(27deg) scaleX(0.4);
+  }
+  .x2{
+    height: 100%;
+    width: 100%;
   }
   .x2:hover:before,
   .x2:hover:after {
@@ -137,8 +138,6 @@
 
   .bg-rotatingx .content {
     position: relative;
-    width: 400px;
-    height: 580px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
