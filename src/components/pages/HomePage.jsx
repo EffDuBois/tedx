@@ -11,7 +11,7 @@ const HomePage = () => {
         className="w-full h-96 bg-[image:var(--image-url)]"
       ></div> */}
       <div className="h-[80vh] items-center flex bg-black">
-        <img className="w-3/4 m-auto" src={logo} />
+        <img className="w-3/4 m-auto" src={logo} alt="event-logo" />
       </div>
       <div className="w-3/4 m-auto mt-32 mb-16">
         <h1>
@@ -40,7 +40,11 @@ const HomePage = () => {
         </p>
       </div>
       <div className="w-3/4 m-auto my-20 border-glow ">
-        <img className="hover:opacity-50 w-full" src={img_bit} />
+        <img
+          className="hover:opacity-50 w-full"
+          src={img_bit}
+          alt="pic of bangalore city"
+        />
       </div>
     </div>
   );
