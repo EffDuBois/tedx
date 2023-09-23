@@ -8,7 +8,8 @@ const PersonCard = (props) => {
         <div className="content h-[97%] w-[93%]">
           <img
             className="h-full cover hover:opacity-5 duration-150 absolute"
-            src={props.img}
+            src={props.src}
+            alt={props.name}
           />
           <div className=" h-full p-10 flex flex-col justify-items-center items-start  ">
             <p>{props.name}</p>

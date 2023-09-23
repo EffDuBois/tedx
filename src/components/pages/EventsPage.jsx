@@ -1,8 +1,7 @@
 import React from "react";
 import logo from "../../resources/logo-Insightx-crop.jpg";
-import logo_nandini from "../../resources/logo-nandini.jpeg";
 import Counter from "../Counters/Counter";
-
+import sponsorImages from "../../resources/Sponsors/getSponsorImages";
 const EventsPage = () => {
   return (
     <div className="w-full">
@@ -37,13 +36,12 @@ const EventsPage = () => {
           Our <span className="text-white glow ">Sponsors</span>
         </h1>
         <div className="grid grid-cols-3 gap-x-10 gap-y-20 place-content-center">
-          <img className="rounded-full" src={logo_nandini} />
-          <img className="rounded-full" src={logo_nandini} />
-          <img className="rounded-full" src={logo_nandini} />
-          <img className="rounded-full" src={logo_nandini} />
-          <img className="rounded-full" src={logo_nandini} />
-          <img className="rounded-full" src={logo_nandini} />
-          <img className="rounded-full" src={logo_nandini} />
+          {sponsorImages.map((img, index)=>{
+            return(
+              <img key={index} src={img.path} alt={img.name}/>
+            )
+          })}
+          
         </div>
       </div>
     </div>
