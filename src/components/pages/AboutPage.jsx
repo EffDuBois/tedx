@@ -1,5 +1,5 @@
 import React from "react";
-import imgPrincipal from "../../resources/Principal/Dr_Ashwath_MU@Principal,_Bangalore_Institute_of_Technology.jpg";
+import imgPrincipal from "../../resources/principal/Dr_Ashwath_MU@Principal,_BIT,_Bangalore.jpg";
 import teamImages from "../../resources/team/getTeamImages.js"
 import PersonCard from "../Cards/PersonCard";
 import PeopleTray from "../Trays/PeopleTray";
