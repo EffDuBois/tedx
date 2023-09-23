@@ -6,7 +6,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 import PeopleTray from "../Trays/PeopleTray";
 
-import speakerImages from "../../resources/Speakers/getSpeakerImages.js";
+import speakerImages from "../../resources/speakers/getSpeakerImages.js";
 
 const SpeakersPage = () => {
   return (
