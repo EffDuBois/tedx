@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# TEDx BIT Bangalore Website Source Code
+This is the source code for TEDx BIT Bangalore's website. It's built on React, with Tailwind. It's a static frontend only website built to display information about the annual TEDx event held at BIT.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
