@@ -4,9 +4,9 @@ import TEDxLogo from "../Buttons/TEDxLogo";
 
 const Navbar = () => {
   return (
-    <header class="borderb-glow flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-black text-sm py-3 sm:py-0 sticky top-0">
+    <header class="borderb-glow flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-black text-md py-3 md:py-0 sticky top-0">
       <nav
-        class="relative max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
+        class="relative max-w-[85rem] w-full mx-auto px-4 md:flex md:items-center md:justify-between md:px-6 lg:px-8"
         aria-label="Global"
       >
         <div class="flex items-center justify-between">
@@ -18,10 +18,10 @@ const Navbar = () => {
               Brand
             </a> */}
           <TEDxLogo />
-          <div class="sm:hidden">
+          <div class="md:hidden">
             <button
               type="button"
-              class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border border-white/[.5] font-medium text-white shadow-sm align-middle hover:bg-white/[.1] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm"
+              class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border border-white/[.5] font-medium text-white shadow-md align-middle hover:bg-white/[.1] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-md"
               data-hs-collapse="#navbar-collapse-with-animation"
               aria-controls="navbar-collapse-with-animation"
               aria-label="Toggle navigation"
@@ -52,30 +52,30 @@ const Navbar = () => {
         </div>
         <div
           id="navbar-collapse-with-animation"
-          class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
+          class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block"
         >
-          <div class="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7">
+          <div class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7">
             {/* <a
-              class="font-medium text-white sm:py-6"
+              class="font-medium text-white md:py-6"
               href="#"
               aria-current="page"
             >
               Landing
             </a>
             <a
-              class="font-medium text-white/[.8] hover:text-white sm:py-6"
+              class="font-medium text-white/[.8] hover:text-white md:py-6"
               href="#"
             >
               Account
             </a>
             <a
-              class="font-medium text-white/[.8] hover:text-white sm:py-6"
+              class="font-medium text-white/[.8] hover:text-white md:py-6"
               href="#"
             >
               Work
             </a>
             <a
-              class="font-medium text-white/[.8] hover:text-white sm:py-6"
+              class="font-medium text-white/[.8] hover:text-white md:py-6"
               href="#"
             >
               Blog
