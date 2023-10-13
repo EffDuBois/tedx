@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const TEDxLogo = () => {
   return (
-    <Link className="flex-none w-1/2" to="/">
+    <Link className="flex-none w-4/5 p-5" to="/">
       <img src={logo} alt="Tedx logo" />
     </Link>
   );

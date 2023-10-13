@@ -10,7 +10,7 @@ const HomePage = () => {
         style={{ "--image-url": `url(${logo})` }}
         className="w-full h-96 bg-[image:var(--image-url)]"
       ></div> */}
-      <div className="h-[80vh] items-center flex bg-black">
+      <div className="h-[75vh] items-center flex bg-black">
         <img className="w-3/4 m-auto" src={logo} alt="event-logo" />
       </div>
       <div className="w-3/4 m-auto mt-32 mb-16">

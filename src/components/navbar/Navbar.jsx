@@ -84,7 +84,7 @@ const Navbar = () => {
             <NavbarButton to="/events">Event</NavbarButton>
             <NavbarButton to="/speakers">Speakers</NavbarButton>
             <NavbarButton to="/about">About Us</NavbarButton>
-            
+
             <NavbarButton>Register</NavbarButton>
           </div>
         </div>
