@@ -15,8 +15,8 @@ const SpeakersPage = () => {
         Our <span className="text-white glow">Speakers</span>
       </h1>
       <PeopleTray imageArray={speakerImages} />
-      <div className="flex w-full justify-evenly">
-        <div className="flex flex-col content-center item-center">
+      <div className="flex flex-col md:flex-row w-full justify-evenly">
+        <div className="flex flex-col content-center item-center m-3">
           <FontAwesomeIcon
             icon={faClock}
             size="2xl"
@@ -26,7 +26,7 @@ const SpeakersPage = () => {
           <p className="text-center"> November 25, 2023</p>
           <p className="text-center">Time</p>
         </div>
-        <div className="flex flex-col content-center item-center">
+        <div className="flex flex-col content-center item-center mt-4">
           <FontAwesomeIcon
             icon={faLocationDot}
             size="2xl"
