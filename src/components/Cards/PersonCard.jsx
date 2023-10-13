@@ -2,7 +2,7 @@ import React from "react";
 
 const PersonCard = (props) => {
   return (
-    <div className="bg-rotatingx h-[500px] w-[440px]  my-10">
+    <div className="bg-rotatingx w-[75vw] h-[85vw] md:w-[25vw] md:h-[29vw] grow-0 shrink-0 my-10">
       <div className="bg-rotatingx x2">
         <div className="content h-[97%] w-[93%]">
           <img
