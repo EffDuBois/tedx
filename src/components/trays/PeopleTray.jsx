@@ -1,5 +1,5 @@
 import React from "react";
-import PersonCard from "../Cards/PersonCard";
+import PersonCard from "../cards/PersonCard";
 
 const PeopleTray = (props) => {
   return (
