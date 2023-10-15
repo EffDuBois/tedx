@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <header class="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full bg-invert text-lg py-3 lg:py-0 sticky top-0">
+    <header class="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full bg-invert text-lg lg:py-0 sticky top-0">
       <nav
         class="relative w-full  px-4 lg:flex lg:items-center lg:justify-between"
         aria-label="Global"
@@ -50,7 +50,7 @@ const Navbar = () => {
         </div>
         <div
           id="navbar-collapse-with-animation"
-          class="hs-collapse h-full hidden overflow-hidden transition-all duration-300 basis-full grow lg:block py-2"
+          class="hs-collapse h-full hidden overflow-hidden transition-all duration-300 basis-full grow lg:block"
         >
           <div class="flex flex-col gap-y-4 h-full gap-x-0 mt-5 lg:flex-row lg:items-stretch lg:justify-end lg:gap-y-0 lg:mt-0 lg:pl-7">
             <NavbarButton to="/">Home</NavbarButton>

@@ -10,15 +10,15 @@ const HomePage = () => {
   return (
     <div>
       <div className="border-b-4 border-white flex flex-col">
-        <div className="h-[75vh] items-center flex mb-10">
+        <div className="h-[75vh] items-center flex mb-14">
           {/* <img className="h-[75vh] mx-auto mt-16" src={logo} alt="event-logo" /> */}
           <img className="" src={logobg} alt="event-logo" />
         </div>
-        <p className="text-center text-normal [font-stretch:normal]">
+        {/* <p className="text-center text-normal [font-stretch:normal]">
           Scroll
-        </p>
+        </p> */}
         {/* <FontAwesomeIcon
-          className="m-6 h-[2rem]"
+          className="m-2 h-[2rem]"
           icon={faChevronDown}
           style={{ color: "white" }}
         /> */}

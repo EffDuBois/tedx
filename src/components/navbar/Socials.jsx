@@ -5,11 +5,11 @@ import React from "react";
 
 const Socials = () => {
   return (
-    <div className="bg-invert text-invert py-20 px-32 flex lg:flex-row justify-between flex-col">
-      <p className="text-center lg:text-left text-m self-center font-normal [font-stretch:normal]">
+    <div className="bg-invert text-invert min-h-[35vh] px-[8vw] flex lg:flex-row justify-between flex-col">
+      <p className="text-center py-[8vh] lg:text-left text-m self-center font-normal [font-stretch:normal]">
         This independent TEDx event is operated under license from TED.
       </p>
-      <div className="self-center flex py-8 mx-3">
+      <div className="self-center flex pb-[8vh] pt-[3vh] lg:py-[3vw]">
         <a
           target="blank"
           href="https://www.linkedin.com/company/tedxbitbangalore"
