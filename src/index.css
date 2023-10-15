@@ -168,8 +168,18 @@
 }
 @font-face {
   font-family: acumin-pro;
+  font-weight: 800;
+  font-stretch: condensed;
+  src: url(./resources//fonts/acumin-pro-condensed-black.otf);
+}
+@font-face {
+  font-family: acumin-pro;
+  font-weight: 800;
+  src: url(./resources/fonts/acumin-pro-black.otf);
+}
+@font-face {
+  font-family: acumin-pro;
   font-weight: 900;
-  font-stretch: normal;
   src: url(./resources/fonts/acumin-pro-ultra-black.otf) format("opentype");
 }
 @font-face {
@@ -183,6 +193,7 @@ body {
   margin: 0;
   font-family: "acumin-pro", "Impact" sans-serif;
   font-weight: 900;
+  font-stretch: ultra-expanded;
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
