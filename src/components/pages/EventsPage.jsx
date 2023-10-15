@@ -31,6 +31,8 @@ const EventsPage = () => {
         <div className="h-52 flex justify-center item-center flex flex-col">
           <Counter />
           <p className="self-center">Location</p>
+          <p className="text-center"> Bangalore Institute of Technology,</p>
+          <p className="text-center">KR Road, VV Puram, Bangalore - 560094</p>
         </div>
         <div className=" mt-32 mb-16">
           <h1>

@@ -1,18 +1,27 @@
 import React from "react";
 
 import logo from "../../resources/images/logos/insightx/logo-Insightx-icon-edited.jpg";
+import logobg from "../../resources/images/logos/insightx/logo-Insightx_nobg.png";
 import img_bit from "../../resources/images/img-bit.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const HomePage = () => {
   return (
     <div>
-      <div className="border-b-2 border-white">
-        <div className="h-[75vh] items-center flex">
-          <img className="h-[75vh] mx-auto mt-16" src={logo} alt="event-logo" />
+      <div className="border-b-4 border-white flex flex-col">
+        <div className="h-[75vh] items-center flex mb-10">
+          {/* <img className="h-[75vh] mx-auto mt-16" src={logo} alt="event-logo" /> */}
+          <img className="" src={logobg} alt="event-logo" />
         </div>
-        <p className="text-right m-8 font-normal [font-stretch:normal]">
+        <p className="text-center text-normal [font-stretch:normal]">
           Scroll
         </p>
+        {/* <FontAwesomeIcon
+          className="m-6 h-[2rem]"
+          icon={faChevronDown}
+          style={{ color: "white" }}
+        /> */}
       </div>
 
       <div className="mt-20 mx-gutter lg:mx-gutterbig">
