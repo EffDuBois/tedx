@@ -11,11 +11,11 @@ const HomePage = () => {
       </div> */}
       <div className="border-b-2">
         <h1 className="text-[200px] text-left mx-5 mt-[210px] mb-[180px]">Insightx</h1>
-        <p className="text-right m-8 font-normal">Scroll</p>
+        <p className="text-right m-8 font-normal [font-stretch:normal]">Scroll</p>
       </div>
 
       <div className="mt-20 mx-gutter lg:mx-gutterbig">
-        <div className="flex gap-x-[5vw] justify-end basis-0 mb-20">
+        <div className="flex gap-x-[5vw] justify-end basis-0 my-20">
           <h1 className="text-right my-0">
             About
             <span className="text-ted">
@@ -35,7 +35,7 @@ const HomePage = () => {
             potential to bring about a change in the world.
           </p>
         </div>
-        <div className="flex gap-x-[5vw] basis-0 justify-end">
+        <div className="flex gap-x-[5vw] basis-0 justify-end mb-32">
           <h1 className="text-right my-0">
             What is
             <br />

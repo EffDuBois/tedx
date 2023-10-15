@@ -8,12 +8,12 @@ module.exports = {
         gutter: "5vw",
       },
       backgroundColor: {
-        main: "black",
+        main: "#111111",
         invert: "white",
       },
       colors: {
         main: "white",
-        invert: "black",
+        invert: "#111111",
         ted: "red"
       },
     },

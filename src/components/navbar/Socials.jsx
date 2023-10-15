@@ -6,7 +6,7 @@ import React from "react";
 const Socials = () => {
   return (
     <div className="bg-invert text-invert py-20 px-32 flex lg:flex-row justify-between flex-col">
-      <p className="text-center lg:text-left text-m self-center">
+      <p className="text-center lg:text-left text-m self-center font-normal [font-stretch:normal]">
         This independent TEDx event is operated under license from TED.
       </p>
       <div className="self-center flex py-8 mx-3">
