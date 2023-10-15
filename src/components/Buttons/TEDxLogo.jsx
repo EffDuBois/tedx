@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../resources/logo-TEDx_white.png";
+import logo from "../../resources/images/logo-TEDx_white.png";
 import { Link } from "react-router-dom";
 
 const TEDxLogo = () => {

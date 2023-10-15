@@ -5,12 +5,15 @@ import React from "react";
 
 const Socials = () => {
   return (
-    <div className="bg-white text-black py-20 px-32 flex md:flex-row justify-between flex-col">
-      <p className="text-center md:text-left text-m self-center">
+    <div className="bg-white text-black py-20 px-32 flex lg:flex-row justify-between flex-col">
+      <p className="text-center lg:text-left text-m self-center">
         This independent TEDx event is operated under license from TED.
       </p>
       <div className="self-center flex py-8 mx-3">
-        <a target="blank" href="https://www.instagram.com/tedxbitbangalore/">
+        <a
+          target="blank"
+          href="https://www.linkedin.com/company/tedxbitbangalore"
+        >
           <FontAwesomeIcon
             className="mx-1 h-[4rem]"
             icon={faLinkedin}
@@ -18,10 +21,7 @@ const Socials = () => {
             size="2xl"
           />
         </a>
-        <a
-          target="blank"
-          href="https://www.linkedin.com/company/tedxbitbangalore"
-        >
+        <a target="blank" href="https://www.instagram.com/tedxbitbangalore/">
           <FontAwesomeIcon
             className="mx-1 h-[4rem]"
             icon={faInstagram}

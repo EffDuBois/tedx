@@ -1,16 +1,16 @@
 import React from "react";
-import imgPrincipal from "../../resources/principal/Dr_Ashwath_MU@Principal,_BIT,_Bangalore.jpg";
-import teamImages from "../../resources/team/getTeamImages.js";
+import imgPrincipal from "../../resources/images/principal/Dr_Ashwath_MU@Principal,_BIT,_Bangalore.jpg";
+import teamImages from "../../resources/images/team/getTeamImages.js";
 import PersonCard from "../Cards/PersonCard";
 import PeopleTray from "../Trays/PeopleTray";
 
 const AboutPage = () => {
   return (
-    <div className="m-7 md:m-20">
+    <div className="m-7 lg:m-20">
       <h1>
         Our <span className="text-white glow">Faculty coordinator</span>
       </h1>
-      <div className="flex flex-col items-center md:flex-row">
+      <div className="flex flex-col items-center lg:flex-row">
         <PersonCard
           name="Dr Ashwath MU"
           title="Principal, BIT Bangalore"

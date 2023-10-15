@@ -6,7 +6,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 import PeopleTray from "../Trays/PeopleTray";
 
-import speakerImages from "../../resources/speakers/getSpeakerImages.js";
+import speakerImages from "../../resources/images/speakers/getSpeakerImages.js";
 
 const SpeakersPage = () => {
   return (
@@ -15,7 +15,7 @@ const SpeakersPage = () => {
         Our <span className="text-white glow">Speakers</span>
       </h1>
       <PeopleTray imageArray={speakerImages} />
-      <div className="flex flex-col md:flex-row w-full justify-evenly">
+      <div className="flex flex-col lg:flex-row w-full justify-evenly">
         <div className="flex flex-col content-center item-center m-3">
           <FontAwesomeIcon
             icon={faClock}

@@ -1,14 +1,14 @@
 import React from "react";
-import logo from "../../resources/logo-Insightx-crop.jpg";
+import logo from "../../resources/images/logo-Insightx-crop.jpg";
 import Counter from "../Counters/Counter";
-import sponsorImages from "../../resources/sponsors/getSponsorImages";
+import sponsorImages from "../../resources/images/sponsors/getSponsorImages";
 const EventsPage = () => {
   return (
     <div >
       <div className="h-[75vh] items-center flex bg-black">
         <img className="" src={logo} alt="Theme Video" />
       </div>
-      <div className="mx-gutter md:mx-guttermd">
+      <div className="mx-gutter lg:mx-gutterbig">
         <div className="justify-center flex">
           <button className="glow-button  w-3/5">
             <span className="m-5 text-xl">BUY TICKETS NOW!</span>

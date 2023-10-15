@@ -1,4 +1,4 @@
-import getImagePaths from "../../components/Scripts/getImagePaths";
+import getImagePaths from "../../../components/scripts/getImagePaths.js";
 
 const directory = require.context("./", false, /\.(png|jpe?g|svg)$/);
 let imagePaths = getImagePaths(directory);

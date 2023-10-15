@@ -1,7 +1,7 @@
 import React from "react";
 
-import logo from "../../resources/logo-Insightx-crop.jpg";
-import img_bit from "../../resources/img-bit.jpg";
+import logo from "../../resources/images/logo-Insightx-crop.jpg";
+import img_bit from "../../resources/images/img-bit.jpg";
 
 const HomePage = () => {
   return (
@@ -9,7 +9,7 @@ const HomePage = () => {
       <div className="h-[75vh] items-center flex bg-black">
         <img className="" src={logo} alt="event-logo" />
       </div>
-      <div className="mx-gutter md:mx-guttermd">
+      <div className="mx-gutter lg:mx-gutterbig">
         <div className=" mt-32 mb-16">
           <h1>
             About <span className="text-white glow">TEDx</span>

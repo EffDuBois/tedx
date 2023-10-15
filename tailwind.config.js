@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       margin:{
-        "guttermd":"15vw",
+        "gutterbig":"15vw",
         "gutter":"5vw"
       }
     },
