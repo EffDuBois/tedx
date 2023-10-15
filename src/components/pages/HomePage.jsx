@@ -9,8 +9,12 @@ const HomePage = () => {
       {/* <div className="h-[75vh] items-center flex">
         <img className="" src={logo} alt="event-logo" />
       </div> */}
-      <h1 className="text-[150px] text-left mx-5 my-[250px]">Insightx</h1>
-      <div className="mx-gutter lg:mx-gutterbig">
+      <div className="border-b-2">
+        <h1 className="text-[200px] text-left mx-5 mt-[210px] mb-[180px]">Insightx</h1>
+        <p className="text-right m-8 font-normal">Scroll</p>
+      </div>
+
+      <div className="mt-20 mx-gutter lg:mx-gutterbig">
         <div className="flex gap-x-[5vw] justify-end basis-0 mb-20">
           <h1 className="text-right my-0">
             About
@@ -33,11 +37,10 @@ const HomePage = () => {
         </div>
         <div className="flex gap-x-[5vw] basis-0 justify-end">
           <h1 className="text-right my-0">
-            What is<br/>
+            What is
+            <br />
             <span className="text-ted underline">
-              <a href="https://www.ted.com/tedx">
-                TEDx
-              </a>
+              <a href="https://www.ted.com/tedx">TEDx</a>
             </span>
             ?
           </h1>

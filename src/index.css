@@ -163,6 +163,11 @@
 /* Fonts */
 @font-face {
   font-family: acumin-pro;
+  font-weight: 400;
+  src: url(./resources/fonts/acumin-pro.otf) format("opentype");
+}
+@font-face {
+  font-family: acumin-pro;
   font-weight: 900;
   font-stretch: normal;
   src: url(./resources/fonts/acumin-pro-ultra-black.otf) format("opentype");
