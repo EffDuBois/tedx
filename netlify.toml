@@ -2,8 +2,6 @@
   command = "npm run build"
   publish=""
   base = ""
-  scripts: 
-   - CI=false npm run build
 [[redirects]]
   from = "/*"
   to = "/index.html"
