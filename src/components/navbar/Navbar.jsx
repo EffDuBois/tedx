@@ -1,12 +1,15 @@
 import React from "react";
 import NavbarButton from "../Buttons/NavbarButton";
 import TEDxLogo from "../Buttons/TEDxLogo";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <header class="borderb-glow flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full bg-black text-lg py-3 lg:py-0 sticky top-0">
+    <header class="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full bg-invert text-lg py-3 lg:py-0 sticky top-0">
       <nav
-        class="relative max-w-[85rem] w-full mx-auto px-4 lg:flex lg:items-center lg:justify-between lg:px-6 lg:px-8"
+        class="relative w-full  px-4 lg:flex lg:items-center lg:justify-between"
         aria-label="Global"
       >
         <div class="flex items-center justify-between">
@@ -17,27 +20,29 @@ const Navbar = () => {
             >
               Brand
             </a> */}
-          <TEDxLogo />
+          {/* <div className="py-5 ">
+            <TEDxLogo />
+          </div> */}
+          <Link className="flex-none" to="/">
+            <h1 className="text-5xl text-invert">
+              <span className="text-ted">
+                TED<sup>x</sup>
+              </span>
+              BITBangalore
+            </h1>
+          </Link>
           <div class="lg:hidden">
             <button
               type="button"
-              class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-lg border border-white/[.5] font-medium text-white shadow-lg align-middle hover:bg-white/[.1] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-lg"
+              class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 border border-white font-medium text-white shadow-lg align-middle hover:bg-white/[.1] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-lg"
               data-hs-collapse="#navbar-collapse-with-animation"
               aria-controls="navbar-collapse-with-animation"
               aria-label="Toggle navigation"
             >
-              <svg
-                class="hs-collapse-open:hidden w-4 h-4"
-                width="16"
-                height="16"
-                fill="currentColor"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-                />
-              </svg>
+              <FontAwesomeIcon
+                icon={faChevronDown}
+                style={{ color: "white" }}
+              />
               <svg
                 class="hs-collapse-open:block hidden w-4 h-4"
                 width="16"
@@ -52,39 +57,14 @@ const Navbar = () => {
         </div>
         <div
           id="navbar-collapse-with-animation"
-          class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow lg:block"
+          class="hs-collapse h-full hidden overflow-hidden transition-all duration-300 basis-full grow lg:block py-2"
         >
-          <div class="flex flex-col gap-y-4 gap-x-0 mt-5 lg:flex-row lg:items-center lg:justify-end lg:gap-y-0 lg:gap-x-7 lg:mt-0 lg:pl-7">
-            {/* <a
-              class="font-medium text-white lg:py-6"
-              href="#"
-              aria-current="page"
-            >
-              Landing
-            </a>
-            <a
-              class="font-medium text-white/[.8] hover:text-white lg:py-6"
-              href="#"
-            >
-              Account
-            </a>
-            <a
-              class="font-medium text-white/[.8] hover:text-white lg:py-6"
-              href="#"
-            >
-              Work
-            </a>
-            <a
-              class="font-medium text-white/[.8] hover:text-white lg:py-6"
-              href="#"
-            >
-              Blog
-            </a> */}
+          <div class="flex flex-col gap-y-4 h-full gap-x-0 mt-5 lg:flex-row lg:items-stretch lg:justify-end lg:gap-y-0 lg:mt-0 lg:pl-7">
             <NavbarButton to="/">Home</NavbarButton>
             <NavbarButton to="/events">Event</NavbarButton>
             <NavbarButton to="/speakers">Speakers</NavbarButton>
             <NavbarButton to="/about">About Us</NavbarButton>
-            <NavbarButton to="/register" >Register</NavbarButton>
+            <NavbarButton to="/register">Register</NavbarButton>
           </div>
         </div>
       </nav>

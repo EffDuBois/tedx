@@ -6,27 +6,22 @@ import img_bit from "../../resources/images/img-bit.jpg";
 const HomePage = () => {
   return (
     <div>
-      <div className="h-[75vh] items-center flex bg-black">
+      {/* <div className="h-[75vh] items-center flex">
         <img className="" src={logo} alt="event-logo" />
-      </div>
+      </div> */}
+      <h1 className="text-[150px] text-left mx-5 my-[250px]">Insightx</h1>
       <div className="mx-gutter lg:mx-gutterbig">
-        <div className=" mt-32 mb-16">
-          <h1>
-            About <span className="text-white glow">TEDx</span>
+        <div className="flex gap-x-[5vw] justify-end basis-0 mb-20">
+          <h1 className="text-right my-0">
+            About
+            <span className="text-ted">
+              <br />
+              TEDx
+              <br />
+              <span className="text-6xl">BITBangalore</span>
+            </span>
           </h1>
-          <p>
-            A global movement dedicated to propagating the ideas to communities
-            around the globe through independently organized TED-like events,
-            meant to inspire conversation, prompt innovation and create
-            connections. Officially, the ‘X’ in TEDx stands for independently
-            organized TED event, but it’s more of a TED ‘multiplied’.
-          </p>
-        </div>
-        <div className=" my-16">
-          <h1>
-            About <span className="text-white glow">TEDxBITBangalore</span>
-          </h1>
-          <p>
+          <p className="max-w-[45vw]">
             TEDxBITBangalore is a channel to propagate ideas globally through a
             local platform. We hold a university-level license from TED to
             organise an independent TED event to effectuate the same. It was
@@ -36,13 +31,36 @@ const HomePage = () => {
             potential to bring about a change in the world.
           </p>
         </div>
-        <div className=" my-20 border-glow ">
+        <div className="flex gap-x-[5vw] basis-0 justify-end">
+          <h1 className="text-right my-0">
+            What is<br/>
+            <span className="text-ted underline">
+              <a href="https://www.ted.com/tedx">
+                TEDx
+              </a>
+            </span>
+            ?
+          </h1>
+          <p className="max-w-[45vw]">
+            In the spirit of ideas worth spreading, TED has created a program
+            called TEDx. TEDx is a program of local, self-organized events that
+            bring people together to share a TED-like experience. Our event is
+            called TEDxBitBangalore, where x = independently organized TED
+            event. At our TEDxBitBangalore event INSIGHTX, TED Talks video and
+            live speakers will combine to spark deep discussion and connection
+            in a small group. The TED Conference provides general guidance for
+            the TEDx program, but individual TEDx events, including ours, are
+            self-organized.
+          </p>
+        </div>
+
+        {/* <div className=" my-20 ">
           <img
             className="hover:opacity-50 w-full"
             src={img_bit}
             alt="pic of bangalore city"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

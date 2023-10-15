@@ -5,7 +5,7 @@ import React from "react";
 
 const Socials = () => {
   return (
-    <div className="bg-white text-black py-20 px-32 flex lg:flex-row justify-between flex-col">
+    <div className="bg-invert text-invert py-20 px-32 flex lg:flex-row justify-between flex-col">
       <p className="text-center lg:text-left text-m self-center">
         This independent TEDx event is operated under license from TED.
       </p>
@@ -15,25 +15,25 @@ const Socials = () => {
           href="https://www.linkedin.com/company/tedxbitbangalore"
         >
           <FontAwesomeIcon
-            className="mx-1 h-[4rem]"
+            className="mx-1 h-[4rem] hover:animate-bounce"
             icon={faLinkedin}
-            style={{ color: "#ababab" }}
+            style={{ color: "black" }}
             size="2xl"
           />
         </a>
         <a target="blank" href="https://www.instagram.com/tedxbitbangalore/">
           <FontAwesomeIcon
-            className="mx-1 h-[4rem]"
+            className="mx-1 h-[4rem] hover:animate-bounce"
             icon={faInstagram}
-            style={{ color: "#ababab" }}
+            style={{ color: "black" }}
             size="2xl"
           />
         </a>
         <a target="blank" href="mailto:tedxbitbangalore5@gmail.com">
           <FontAwesomeIcon
-            className="mx-1 h-[4rem]"
+            className="mx-1 h-[4rem] hover:animate-bounce"
             icon={faEnvelope}
-            style={{ color: "#ababab" }}
+            style={{ color: "black" }}
             size="2xl"
           />
         </a>
