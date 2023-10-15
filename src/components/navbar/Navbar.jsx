@@ -13,13 +13,6 @@ const Navbar = () => {
         aria-label="Global"
       >
         <div class="flex items-center justify-between">
-          {/* <a 
-              class="flex-none text-xl font-semibold text-white"
-              href="#"
-              aria-label="Brand"
-            >
-              Brand
-            </a> */}
           {/* <div className="py-5 ">
             <TEDxLogo />
           </div> */}
@@ -34,14 +27,14 @@ const Navbar = () => {
           <div class="lg:hidden">
             <button
               type="button"
-              class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 border border-white font-medium text-white shadow-lg align-middle hover:bg-white/[.1] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-lg"
+              class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 border border-black font-medium text-white shadow-lg align-middle hover:bg-white/[.1] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-lg"
               data-hs-collapse="#navbar-collapse-with-animation"
               aria-controls="navbar-collapse-with-animation"
               aria-label="Toggle navigation"
             >
               <FontAwesomeIcon
                 icon={faChevronDown}
-                style={{ color: "white" }}
+                style={{ color: "black" }}
               />
               <svg
                 class="hs-collapse-open:block hidden w-4 h-4"
@@ -68,19 +61,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      {/* <Link to="/">
-        <img
-          className="justify-self-start w-1/3 m-5 ml-8"
-          src={logo}
-          alt="Tedx logo"
-        />
-      </Link>
-      <div className="flex flex-row">
-        <button className="">About Us</button>
-        <button>Event</button>
-        <button>Contact Us</button>
-        <button>Register</button>
-      </div> */}
     </header>
   );
 };

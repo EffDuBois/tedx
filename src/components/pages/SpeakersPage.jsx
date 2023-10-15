@@ -12,7 +12,7 @@ const SpeakersPage = () => {
   return (
     <div className="m-20">
       <h1>
-        Our <span className="text-white glow">Speakers</span>
+        Our <span className="text-ted ">Speakers</span>
       </h1>
       <PeopleTray imageArray={speakerImages} />
       <div className="flex flex-col lg:flex-row w-full justify-evenly">

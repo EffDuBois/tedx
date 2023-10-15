@@ -45,7 +45,7 @@ const Counter = () => {
 
   return (
     <p className="text-2xl self-center">
-      {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+      {timerComponents.length ? timerComponents : <span>Event's Here!</span>}
     </p>
   );
 };

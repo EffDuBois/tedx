@@ -11,7 +11,7 @@
     font-stretch: ultra-expanded;
   }
   p {
-    @apply sm:text-2xl text-justify;
+    @apply sm:text-[1.45rem] text-justify;
     font-family: acumin-pro;
   }
 }

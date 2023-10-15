@@ -1,22 +1,22 @@
 import React from "react";
-import logo from "../../resources/images/logo-Insightx-crop.jpg";
+import logo from "../../resources/images/logos/insightx/logo-Insightx_nobg.png";
 import Counter from "../counters/Counter";
 import sponsorImages from "../../resources/images/sponsors/getSponsorImages";
 const EventsPage = () => {
   return (
-    <div >
-      <div className="h-[75vh] items-center flex bg-black">
+    <div>
+      <div className="h-[75vh] items-center flex">
         <img className="" src={logo} alt="Theme Video" />
       </div>
       <div className="mx-gutter lg:mx-gutterbig">
         <div className="justify-center flex">
-          <button className="glow-button  w-3/5">
+          <button className="w-3/5">
             <span className="m-5 text-xl">BUY TICKETS NOW!</span>
           </button>
         </div>
         <div className=" mt-32 mb-16">
           <h1>
-            About <span className="text-white glow">INSIGHTX</span>
+            About <span className="text-ted ">INSIGHTX</span>
           </h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -28,13 +28,13 @@ const EventsPage = () => {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div className="bg-black h-52 flex justify-center item-center flex flex-col">
+        <div className="h-52 flex justify-center item-center flex flex-col">
           <Counter />
           <p className="self-center">Location</p>
         </div>
         <div className=" mt-32 mb-16">
           <h1>
-            Our <span className="text-white glow ">Sponsors</span>
+            Our <span className="text-ted  ">Sponsors</span>
           </h1>
           <div className="grid grid-cols-3 gap-x-10 gap-y-20 place-content-center">
             {sponsorImages.map((img, index) => {

@@ -1,17 +1,18 @@
 import React from "react";
 
-import logo from "../../resources/images/logo-Insightx-crop.jpg";
+import logo from "../../resources/images/logos/insightx/logo-Insightx-icon-edited.jpg";
 import img_bit from "../../resources/images/img-bit.jpg";
 
 const HomePage = () => {
   return (
     <div>
-      {/* <div className="h-[75vh] items-center flex">
-        <img className="" src={logo} alt="event-logo" />
-      </div> */}
-      <div className="border-b-2">
-        <h1 className="text-[200px] text-left mx-5 mt-[210px] mb-[180px]">Insightx</h1>
-        <p className="text-right m-8 font-normal [font-stretch:normal]">Scroll</p>
+      <div className="border-b-2 border-white">
+        <div className="h-[75vh] items-center flex">
+          <img className="h-[75vh] mx-auto mt-16" src={logo} alt="event-logo" />
+        </div>
+        <p className="text-right m-8 font-normal [font-stretch:normal]">
+          Scroll
+        </p>
       </div>
 
       <div className="mt-20 mx-gutter lg:mx-gutterbig">

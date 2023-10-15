@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <div className="m-7 lg:m-20">
       <h1>
-        Our <span className="text-white glow">Faculty coordinator</span>
+        Our <span className="text-ted ">Faculty coordinator</span>
       </h1>
       <div className="flex flex-col items-center lg:flex-row">
         <PersonCard
@@ -28,7 +28,7 @@ const AboutPage = () => {
         </p>
       </div>
       <h1>
-        Our <span className="text-white glow">Team</span>
+        Our <span className="text-ted ">Team</span>
       </h1>
       <PeopleTray imageArray={teamImages} />
     </div>
