@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../resources/images/logo-Insightx-crop.jpg";
-import Counter from "../Counters/Counter";
+import Counter from "../counters/Counter";
 import sponsorImages from "../../resources/images/sponsors/getSponsorImages";
 const EventsPage = () => {
   return (

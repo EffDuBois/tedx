@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
-import PeopleTray from "../Trays/PeopleTray";
+import PeopleTray from "../trays/PeopleTray";
 
 import speakerImages from "../../resources/images/speakers/getSpeakerImages.js";
 
