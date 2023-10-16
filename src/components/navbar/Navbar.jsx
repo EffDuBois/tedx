@@ -1,6 +1,5 @@
 import React from "react";
 import NavbarButton from "../buttons/NavbarButton";
-import TEDxLogo from "../buttons/TEDxLogo";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";

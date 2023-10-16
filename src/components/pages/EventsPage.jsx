@@ -14,11 +14,8 @@ const EventsPage = () => {
             <span className="m-5 text-xl">BUY TICKETS NOW!</span>
           </button>
         </div>
-        <div className=" mt-32 mb-16">
-          <h1>
-            About <span className="text-ted ">INSIGHTX</span>
-          </h1>
-          <p>
+        <div className="flex gap-x-[5vw] justify-start basis-0 mt-12 mb-8">
+          <p className="max-w-[45vw]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -27,10 +24,21 @@ const EventsPage = () => {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
+          <div>
+            <h1 className="text-left my-0">
+              <span className="text-ted">
+                <br />
+                INSIGHTX
+              </span>
+            </h1>
+            in
+            <Counter />
+          </div>
         </div>
         <div className="h-52 flex justify-center item-center flex flex-col">
-          <Counter />
-          <p className="self-center">Location</p>
+          <h2 className="text-center ">
+            Find us <span className="text-ted text-4xl">At</span>
+          </h2>
           <p className="text-center"> Bangalore Institute of Technology,</p>
           <p className="text-center">KR Road, VV Puram, Bangalore - 560094</p>
         </div>

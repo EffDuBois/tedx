@@ -10,6 +10,9 @@
     font-weight: 900;
     font-stretch: ultra-expanded;
   }
+  h2 {
+    @apply sm:text-6xl
+  }
   p {
     @apply sm:text-1.5xl text-justify;
     font-family: acumin-pro;
@@ -24,60 +27,42 @@
     justify-content: center;
     align-items: center;
     transition: 0.5s;
-    z-index: 1;
   }
 
   .bg-rotatingx::before {
     content: " ";
     position: absolute;
     top: 0;
-    width: 90%;
+    width: 100%;
     height: 100%;
     text-decoration: none;
     background: #fff;
-    border-radius: 2px;
     transform: skewX(0deg);
-    transition: 0.5s;
-    filter: blur(10);
-  }
-
-  .bg-rotatingx::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 90%;
-    height: 100%;
-    background: #fff;
-    border-radius: 2px;
-    transition: 0.5s;
-    filter: blur(10px);
+    transition: 0.3s;
   }
 
   .bg-rotatingx:hover:before,
   .bg-rotatingx:hover:after {
     transform: skewX(27deg) scaleX(0.4);
   }
-  .x2 {
+  .bg-rotatingx:before,
+  .bg-rotatingx:after {
+    background: red;
+  }
+  .bg-rotatingx > .x2 {
     height: 100%;
     width: 100%;
   }
-  .x2:hover:before,
-  .x2:hover:after {
+  .bg-rotatingx > .x2:hover:before,
+  .bg-rotatingx > .x2:hover:after {
     transform: skewX(-27deg) scaleX(0.4);
   }
 
-  .bg-rotatingx:before,
-  .bg-rotatingx:after {
-    background: rgb(249, 32, 32);
-  }
-
-  .bg-rotatingx .content {
+  .x2 > .content {
     position: relative;
     background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(10px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 2px;
-    z-index: 1;
+    z-index: 3;
     transform: 0.5s;
     color: #fff;
     transition: 0.2s;

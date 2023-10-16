@@ -1,10 +1,6 @@
 import React from "react";
 
-import logo from "../../resources/images/logos/insightx/logo-Insightx-icon-edited.jpg";
 import logobg from "../../resources/images/logos/insightx/logo-Insightx_nobg.png";
-import img_bit from "../../resources/images/img-bit.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const HomePage = () => {
   return (

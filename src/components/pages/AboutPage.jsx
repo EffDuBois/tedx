@@ -1,7 +1,7 @@
 import React from "react";
 import imgPrincipal from "../../resources/images/principal/Dr_Ashwath_MU@Principal,_BIT,_Bangalore.jpg";
 import teamImages from "../../resources/images/team/getTeamImages.js";
-import PersonCard from "../cards/PersonCard";
+import PersonCard from "../cards/PersonCardFolding";
 import PeopleTray from "../trays/PeopleTray";
 
 const AboutPage = () => {
