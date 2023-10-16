@@ -24,42 +24,55 @@ const HomePage = () => {
         <div className="flex gap-x-[5vw] justify-end basis-0 my-20">
           <h1 className="text-right my-0">
             About
+            <br />
             <span className="text-ted">
-              <br />
               TEDx
               <br />
               <span className="text-6xl">BITBangalore</span>
             </span>
           </h1>
           <p className="max-w-[45vw]">
-            TEDxBITBangalore is a channel to propagate ideas globally through a
-            local platform. We hold a university-level license from TED to
-            organise an independent TED event to effectuate the same. It was
-            initiated by a humble group of young visionaries dedicated to
-            bringing together, ideas worth spreading. In this fifth edition of
-            TEDxBITBangalore, we aspire to nurture the ideas that bear the
-            potential to bring about a change in the world.
+            <span className="text-ted">TEDxBITBangalore </span> is a channel to
+            <span className="text-4xl"> propagate ideas </span>globally through
+            a local platform. We hold a <u>university-level license</u> from TED
+            to organise an independent
+            <span className="text-ted">
+              <sup>x</sup>
+            </span>
+            - TED event to effectuate the same. It was initiated by a humble
+            group of{" "}
+            <span className="text-4xl bg-gradient-to-r from-amber-500 to-pink-500">
+              young visionaries
+            </span>{" "}
+            dedicated to bringing together, ideas worth spreading. In this fifth
+            edition of <span className="text-ted">TEDxBITBangalore </span>, we
+            aspire to nurture the ideas that bear the potential to bring about a
+            change in the world.
           </p>
         </div>
         <div className="flex gap-x-[5vw] basis-0 justify-end mb-32">
           <h1 className="text-right my-0">
-            What is
+            What <span className="text-5xl">is</span>
             <br />
-            <span className="text-ted underline">
+            <span className="text-ted underline text-8xl">
               <a href="https://www.ted.com/tedx">TEDx</a>
             </span>
             ?
           </h1>
           <p className="max-w-[45vw]">
             In the spirit of ideas worth spreading, TED has created a program
-            called TEDx. TEDx is a program of local, self-organized events that
-            bring people together to share a TED-like experience. Our event is
-            called TEDxBitBangalore, where x = independently organized TED
-            event. At our TEDxBitBangalore event INSIGHTX, TED Talks video and
-            live speakers will combine to spark deep discussion and connection
-            in a small group. The TED Conference provides general guidance for
-            the TEDx program, but individual TEDx events, including ours, are
-            self-organized.
+            called <span className="text-ted">TEDx </span>.{" "}
+            <span className="text-ted">TEDx </span> is a program of local,
+            self-organized events that bring people together to share a TED-like
+            experience. Our event is called TEDxBitBangalore, where{" "}
+            <span className="text-ted">x</span> = independently organized TED
+            event. At our <span className="text-ted">TEDxBitBangalore</span>{" "}
+            event <span className="text-5xl">INSIGHTX</span>, TED Talks video
+            and live speakers will combine to spark deep discussion and
+            connection in a small group. The TED Conference provides general
+            guidance for the <span className="text-ted">TEDx </span> program,
+            but individual <span className="text-ted">TEDx </span> events,
+            including ours, are self-organized.
           </p>
         </div>
 

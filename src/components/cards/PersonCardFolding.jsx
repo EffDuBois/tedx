@@ -2,7 +2,7 @@ import React from "react";
 
 const PersonCard = (props) => {
   return (  
-      <div className=" bg-rotatingx w-[75vw] h-[85vw] lg:w-card lg:h-card grow-0 shrink-0">
+      <div className={` ${props.className} bg-rotatingx w-[75vw] h-[85vw] lg:w-card lg:h-card grow-0 shrink-0 ${props.className}`}>
         <div className="bg-rotatingx x2">
           <div className="content h-full w-full">
             <div

@@ -23,7 +23,7 @@ const RegisterPage = () => {
   return (
     <div className="mx-gutter lg:mx-gutterbig my-5">
       <h1>
-        Register for <span className="text-white glow">INSIGHTX</span>
+        Register for <span className="text-ted ">INSIGHTX</span>
       </h1>
       <p>
         Before registering, make sure to read and comply to the following rules

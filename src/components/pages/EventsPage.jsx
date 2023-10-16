@@ -36,8 +36,8 @@ const EventsPage = () => {
           </div>
         </div>
         <div className="h-52 flex justify-center item-center flex flex-col">
-          <h2 className="text-center ">
-            Find us <span className="text-ted text-4xl">At</span>
+          <h2 className="text-center text-5xl">
+            Find us <span className="text-ted text-7xl">At</span>
           </h2>
           <p className="text-center"> Bangalore Institute of Technology,</p>
           <p className="text-center">KR Road, VV Puram, Bangalore - 560094</p>

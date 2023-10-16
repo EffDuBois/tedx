@@ -10,11 +10,11 @@ import speakerImages from "../../resources/images/speakers/getSpeakerImages.js";
 
 const SpeakersPage = () => {
   return (
-    <div className="m-[1vw]">
-      <PeopleTray imageArray={speakerImages}>
-        <h1 className="min-w-card text-end m-0 mt-20">
-          Our <br />
-          <span className="text-ted">Speakers</span>
+    <div className="m-gutterbig">
+      <PeopleTray imageArray={speakerImages} firstText="" secondText="">
+        <h1 className="min-w-card text-center text-6xl text-ted">
+          <span className="text-3xl text-main">The</span>
+          <br /> Speakers
         </h1>
       </PeopleTray>
       <div className="flex flex-col lg:flex-row w-full justify-evenly">

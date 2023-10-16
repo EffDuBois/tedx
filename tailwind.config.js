@@ -14,26 +14,28 @@ module.exports = {
       "4xl": ["2.25vw", { lineHeight: "2.5vw" }],
       "5xl": ["3vw", { lineHeight: "1" }],
       "6xl": ["3.75vw", { lineHeight: "1" }],
+      "6.5xl": ["4.1vw", { lineHeight: "1" }],
       "7xl": ["4.5vw", { lineHeight: "1" }],
+      "7.5xl": ["5.25vw", { lineHeight: "1" }],
       "8xl": ["6vw", { lineHeight: "1" }],
       "9xl": ["8vw", { lineHeight: "1" }],
     },
     extend: {
       width: {
-        card: "32vw",
+        card: "29vw",
       },
       height: {
-        card: "32vw",
+        card: "29vw",
       },
       margin: {
         gutterbig: "4vw",
         gutter: "5vw",
       },
       minWidth: {
-        card: "32vw",
+        card: "29vw",
       },
       minHeight: {
-        card: "32vw",
+        card: "29vw",
       },
       backgroundColor: {
         main: "#040410",
