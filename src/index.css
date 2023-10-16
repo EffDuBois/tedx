@@ -5,17 +5,12 @@
 @layer base {
   h1 {
     @apply sm:text-7xl text-3xl my-8;
-    font-family: acumin-pro;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-stretch: ultra-expanded;
   }
   h2 {
-    @apply sm:text-6xl
+    @apply sm:text-6xl;
   }
   p {
     @apply sm:text-1.5xl text-justify;
-    font-family: acumin-pro;
   }
 }
 
@@ -173,10 +168,17 @@
   font-stretch: ultra-expanded;
   src: url(./resources/fonts/acumin-pro-wide-ultrablack.otf) format("opentype");
 }
+@font-face {
+  font-family: acumin-pro;
+  font-weight: 900;
+  font-stretch: ultra-expanded;
+  font-style: italic;
+  src: url(./resources/fonts/AcuminVariableConcept-WideUltraBlackItalic.ttf);
+}
 
 body {
   margin: 0;
-  font-family: "acumin-pro", "Impact" sans-serif;
+  font-family: acumin-pro, Impact, sans-serif;
   font-weight: 900;
   font-stretch: ultra-expanded;
   text-transform: uppercase;

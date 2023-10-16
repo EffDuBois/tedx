@@ -44,7 +44,7 @@ const HomePage = () => {
             <span className="text-4xl bg-gradient-to-r from-amber-500 to-pink-500">
               young visionaries
             </span>{" "}
-            dedicated to bringing together, ideas worth spreading. In this fifth
+            dedicated to bringing together, <i className="text-3xl">ideas worth spreading</i>. In this fifth
             edition of <span className="text-ted">TEDxBITBangalore </span>, we
             aspire to nurture the ideas that bear the potential to bring about a
             change in the world.
