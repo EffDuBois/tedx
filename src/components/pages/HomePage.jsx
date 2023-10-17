@@ -1,13 +1,14 @@
 import React from "react";
 
-import logobg from "../../resources/images/logos/insightx/logo-Insightx_nobg.png";
+import logobg from "../../resources/images/logos/insightx/logo-Insightx-nobg.png";
 
 const HomePage = () => {
   return (
-    <div>
-      <div className="border-b-4 border-white flex flex-col">
-        <div className="h-[30vh] lg:h-[75vh] items-center flex lg:mb-14">
-          <img className="" src={logobg} alt="insightx-logo" />
+    <div className="">
+      <div className=" lg:border-b-4 border-white flex flex-col">
+        <div className=" h-[80vh] lg:h-[75vh] items-center  flex lg:mb-14">
+          <img className="max-md:hidden" src={logobg} alt="insightx-logo" />
+          <h1 className="text-6.5xls text-left lg:hidden">Insightx</h1>
         </div>
         {/* <p className="text-center text-normal [font-stretch:normal]">
           Scroll
@@ -24,10 +25,10 @@ const HomePage = () => {
           <h1 className="lg:text-left lg:my-0 lg:order-1">
             About
             <br />
-            <span className="text-ted ">
+            <span className="text-ted">
               TEDx
               <br />
-              <span className="lg:text-6xl text-4xls">BITBangalore</span>
+              <span className="lg:text-5xl">BITBangalore</span>
             </span>
           </h1>
           <p className="">

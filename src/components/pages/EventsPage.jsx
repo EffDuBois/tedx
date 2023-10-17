@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../../resources/images/logos/insightx/logo-Insightx_nobg.png";
+import logo from "../../resources/images/logos/insightx/logo-Insightx-nobg.png";
 import Counter from "../counters/Counter";
 import sponsorImages from "../../resources/images/sponsors/getSponsorImages";
 const EventsPage = () => {
   return (
-    <div >
+    <div>
       <div className="lg:h-[75vh] h-[10vh] mt-[8vh] items-center flex">
-        <img className="" src={logo} alt="Theme Video" />
+        <img className="w-[95vw]" src={logo} alt="Theme Video" />
       </div>
       <div className="mx-gutter lg:mx-gutterbig">
         <div className="justify-center flex">
@@ -22,8 +22,8 @@ const EventsPage = () => {
           </a>
         </div>
         <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:my-12">
-          <div className="lg:order-1 text-center lg:text-left">
-            <h1 className="lg:text-left my-0 ">
+          <div className="lg:order-1 ">
+            <h1 className="text-left my-0 ">
               <span className="text-ted">
                 <br />
                 INSIGHTX
@@ -49,11 +49,11 @@ const EventsPage = () => {
           <p className="text-center"> Bangalore Institute of Technology,</p>
           <p className="text-center">KR Road, VV Puram, Bangalore - 560094</p>
         </div>
-        <div className=" mt-32 mb-16">
+        <div className=" my-10">
           <h1>
             Our <span className="text-ted ">Sponsors</span>
           </h1>
-          <div className="grid grid-cols-3 gap-x-10 gap-y-20 place-content-center">
+          <div className="grid grid-cols-2 gap-x-10 gap-y-20 place-content-center">
             {sponsorImages.map((img, index) => {
               return <img key={index} src={img.path} alt={img.name} />;
             })}

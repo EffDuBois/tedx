@@ -4,7 +4,7 @@
 
 @layer base {
   h1 {
-    @apply lg:text-7xl lg:text-left text-4.5xls my-8 text-center;
+    @apply lg:text-7xl text-left text-4.5xls lg:my-8 my-4;
     font-stretch: expanded;
   }
   h2 {
@@ -16,12 +16,11 @@
     font-stretch: expanded;
   }
   h5 {
-    @apply text-lgs lg:text-2xl;
+    @apply text-xls lg:text-2xl;
     font-stretch: expanded;
   }
   p {
-    @apply lg:text-1.5xl text-mds text-justify;
-    font-stretch: expanded;
+    @apply lg:text-1.5xl text-lgs text-left lg:text-justify [font-stretch:expanded];
   }
   ol {
     @apply list-inside list-decimal;

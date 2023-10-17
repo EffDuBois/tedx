@@ -16,7 +16,7 @@ const Navbar = () => {
             <TEDxLogo />
           </div> */}
           <Link className="flex-none" to="/">
-            <h1 className="text-5xl text-invert">
+            <h1 className="text-xls lg:text-5xl text-invert">
               <span className="text-ted">
                 TED<sup>x</sup>
               </span>

@@ -22,7 +22,7 @@ const PeopleTray = (props) => {
             )
           )}
         </div>
-        <div className="lg:border-r-4 lg:border-l-4">
+        <div className="lg:border-r-4">
           {props.imageArray.map((img, index) =>
             index % 3 === 0 ? (
               <div
@@ -44,7 +44,7 @@ const PeopleTray = (props) => {
             )
           )}
         </div>
-        <div className="lg:mt-[8vh] lg:border-l-4">
+        <div className="lg:mt-[8vh]">
           {props.imageArray.map((img, index) =>
             index % 3 === 1 ? (
               <div
