@@ -20,7 +20,7 @@
     font-stretch: expanded;
   }
   p {
-    @apply lg:text-1.5xl text-xls text-justify;
+    @apply lg:text-1.5xl text-mds text-justify;
     font-stretch: expanded;
   }
   ol {
