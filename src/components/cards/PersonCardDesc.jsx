@@ -3,7 +3,7 @@ import PersonCard from "./PersonCardFolding";
 
 const PersonCardDesc = (props) => {
   return (
-    <div className="flex flex-col items-start lg:flex-row">
+    <div className="flex flex-col items-center lg:items-start lg:flex-row">
       <PersonCard
         className={`lg:h-[40vw] lg:w-[40vw]`}
         name={props.name}

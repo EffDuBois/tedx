@@ -13,7 +13,7 @@ const SpeakersPage = () => {
     <div className="m-gutterbig">
       <PeopleTray imageArray={speakerImages} firstText="" secondText="">
         <h1 className="text-center text-ted">
-          <span className="text-4xl text-main">The</span>
+          <span className="text-4xls lg:text-4xl text-main">The</span>
           <br /> Speakers
         </h1>
       </PeopleTray>

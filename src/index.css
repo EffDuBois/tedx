@@ -4,11 +4,11 @@
 
 @layer base {
   h1 {
-    @apply lg:text-7xl text-3xl my-8;
+    @apply lg:text-7xl lg:text-left text-4.5xls my-8 text-center;
     font-stretch: expanded;
   }
   h2 {
-    @apply lg:text-6xl;
+    @apply lg:text-6xl text-3xls;
     font-stretch: expanded;
   }
   h3 {
@@ -16,17 +16,20 @@
     font-stretch: expanded;
   }
   h5 {
-    @apply text-mds lg:text-2xl;
+    @apply text-lgs lg:text-2xl;
     font-stretch: expanded;
   }
   p {
-    @apply sm:text-1.5xl text-justify;
+    @apply lg:text-1.5xl text-xls text-justify;
+    font-stretch: expanded;
   }
   ol {
-    list-style: decimal;
+    @apply list-inside list-decimal;
+    font-stretch: normal;
   }
   li {
-    line-height: 1.9vw;
+    @apply max-md:text-justify my-1 normal-case;
+    font-stretch: normal;
   }
 }
 

@@ -44,7 +44,7 @@ const Counter = () => {
   });
 
   return (
-    <p className="text-2xl self-center">
+    <p className="lg:text-2xl text-2xls lg:text-left text-center self-center">
       {timerComponents.length ? timerComponents : <span>Event's Here!</span>}
     </p>
   );

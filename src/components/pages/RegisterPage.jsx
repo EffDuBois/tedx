@@ -58,15 +58,15 @@ const RegisterPage = () => {
         Before registering, make sure to read and comply to the following rules
         and guidelines regarding the event:
       </p>
-      <div className="grid grid-cols-2 gap-x-14">
+      <div className="grid lg:grid-cols-2 gap-x-14">
         <div>
-          <h3 className="my-5">Registration</h3>
+          <h3 className="my-5 max-md:text-center">Registration</h3>
           <ol>
             {registration.map((item) => (
               <li>{item}</li>
             ))}
           </ol>
-          <h3 className="my-5">VENUE</h3>
+          <h3 className="my-5 max-md:text-center">VENUE</h3>
           <ol>
             {venue.map((item) => (
               <li>{item}</li>
@@ -74,13 +74,13 @@ const RegisterPage = () => {
           </ol>
         </div>
         <div className="">
-          <h3 className="my-5">Socilictation</h3>
+          <h3 className="my-5 max-md:text-center">Socilictation</h3>
           <ol>
             {solicitation.map((item) => (
               <li>{item}</li>
             ))}
           </ol>
-          <h3 className="my-5">Socialize</h3>
+          <h3 className="my-5 max-md:text-center">Socialize</h3>
           <ol>
             {socialize.map((item) => (
               <li>{item}</li>
