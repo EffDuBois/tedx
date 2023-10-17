@@ -7,13 +7,15 @@ import PersonCardDesc from "../cards/PersonCardDesc";
 
 const AboutPage = () => {
   return (
-    <div className="m-7 lg:m-gutterbig">
+    <div className="m-gutter lg:m-gutterbig">
       <PersonCardDesc
         name="Dr Ashwath MU"
         heading={
           <h1 className="mt-0">
             Our <br />
-            <span className="text-ted">Faculty coordinator</span>
+            <span className="text-ted">
+              Faculty <span className="max-md:text-4xls">coordinator</span>
+            </span>
           </h1>
         }
         title="Principal, BIT Bangalore"
@@ -47,28 +49,8 @@ const AboutPage = () => {
         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
         culpa qui officia deserunt mollit anim id est laborum."
       />
-      {/* <div className="flex flex-col items-center lg:flex-row">
-        <PersonCard
-          className={`lg:h-[40vw] lg:w-[40vw]`}
-          name="Dr Ashwath MU"
-          title="Principal, BIT Bangalore"
-          src={imgPrincipal}
-        />
-        <div className="ml-[2vw]">
-          
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-      </div> */}
-
-      <TeamTray imageArray={teamImages} firstText="design team" />
+      <h2 className="mt-6 text-center">Design Team</h2>
+      <TeamTray className imageArray={teamImages} />
     </div>
   );
 };
