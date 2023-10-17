@@ -15,6 +15,7 @@ const PeopleTray = (props) => {
                   src={img.path}
                   name={img.name}
                   title={img.title}
+                  className="lg:w-card lg:h-card"
                 />
               </div>
             ) : (
@@ -37,6 +38,7 @@ const PeopleTray = (props) => {
                   src={img.path}
                   name={img.name}
                   title={img.title}
+                  className="lg:w-card lg:h-card"
                 />
               </div>
             ) : (
@@ -59,6 +61,7 @@ const PeopleTray = (props) => {
                   src={img.path}
                   name={img.name}
                   title={img.title}
+                  className="lg:w-card lg:h-card"
                 />
               </div>
             ) : (
