@@ -15,7 +15,7 @@ const Socials = () => {
           href="https://www.linkedin.com/company/tedxbitbangalore"
         >
           <FontAwesomeIcon
-            className="mx-1 h-[4rem] hover:animate-bounce"
+            className="mx-1 h-[3rem] hover:animate-bounce"
             icon={faLinkedin}
             style={{ color: "black" }}
             size="2xl"
@@ -23,7 +23,7 @@ const Socials = () => {
         </a>
         <a target="blank" href="https://www.instagram.com/tedxbitbangalore/">
           <FontAwesomeIcon
-            className="mx-1 h-[4rem] hover:animate-bounce"
+            className="mx-1 h-[3rem] hover:animate-bounce"
             icon={faInstagram}
             style={{ color: "black" }}
             size="2xl"
@@ -31,7 +31,7 @@ const Socials = () => {
         </a>
         <a target="blank" href="mailto:tedxbitbangalore5@gmail.com">
           <FontAwesomeIcon
-            className="mx-1 h-[4rem] hover:animate-bounce"
+            className="mx-1 h-[3rem] hover:animate-bounce"
             icon={faEnvelope}
             style={{ color: "black" }}
             size="2xl"
