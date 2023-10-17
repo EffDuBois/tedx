@@ -7,7 +7,7 @@ const NavbarButton = (props) => {
       to={props.to}
       className="hs-collapse-toggle lg:px-3 text-invert hover:bg-main hover:text-main flex justify-center items-center min-w-[8vw]"
     >
-      <h3 className="sm:text-2xl">{props.children}</h3>
+      <h5 className="">{props.children}</h5>
     </Link>
   );
 };

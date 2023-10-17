@@ -7,8 +7,7 @@ const HomePage = () => {
     <div>
       <div className="border-b-4 border-white flex flex-col">
         <div className="h-[75vh] items-center flex mb-14">
-          {/* <img className="h-[75vh] mx-auto mt-16" src={logo} alt="event-logo" /> */}
-          <img className="" src={logobg} alt="event-logo" />
+          <img className="" src={logobg} alt="insightx-logo" />
         </div>
         {/* <p className="text-center text-normal [font-stretch:normal]">
           Scroll

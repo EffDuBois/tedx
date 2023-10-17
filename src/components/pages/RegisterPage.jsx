@@ -8,6 +8,17 @@ const RegisterPage = () => {
     "All tickets are non-refundable, non-transferable and is valid for one attendee only.",
     "Holder of any duplicate or forged passes/badges/tickets will be handed over to the security and/or police personnel. Forging passes is a criminal offence.",
   ];
+  const solicitation = [
+    "The organisers reserve the rights of frisk and restrict entry.",
+    "Please cooperate with the private security and police personnel or any agencies for security checks.",
+    "Any individual might be asked to leave the venue without any liability of a refund if there is any behavioural misdemeanour. This decision rests with the conference and venue management and is final and binding.",
+    "No Flash Photography or video recording at the venue is permitted, under any circumstances.",
+    "Carrying of food items, alcohol, cigarettes, weapons, inflammable and banned substances are strictly prohibited.",
+    "The organiser does not take any responsibility for injuries, loss or theft of any personal belongings of the ticket holder.",
+    "There will be adequate breaks for networking and refreshments.",
+    "No children under the age of 15 will be allowed at the venue unaccompanied.",
+    "All standard venue and attendee rules are to be adhered to by attendees.",
+  ];
   const venue = [
     "We urge you to mark your presence at the venue 45 minutes prior to event timing to carry out necessary verification.",
     "All attendees must carry e-ticket or its printout for verification at the venue.",
@@ -20,41 +31,63 @@ const RegisterPage = () => {
     "There will be a simulcast area to view live proceedings in the venue foyer area.",
     "Re-entry into the venue is strictly prohibited. Attendees will have to submit event badge to the security at exit. The same will not be given back.",
   ];
+  const socialize = [
+    "Use the official hashtag #TEDxBITBangalore on social media to talk about the event.",
+    "We urge you to carpool to save fuel and get to know fellow attendees before the event.",
+    "Most importantly, have a great time!",
+  ];
   return (
     <div className="mx-gutter lg:mx-gutterbig my-5">
-      <h1>
-        Register for <span className="text-ted ">INSIGHTX</span>
-      </h1>
-      <p>
+      <h3 className="text-center">
+        Limited Seats, Register Fast! <span className="text-ted "></span>
+      </h3>
+      <div className="bg-ted hover:bg-invert hover:text-invert max-w-fit px-5 py-3 m-auto my-10">
+        <a
+          href={
+            "https://docs.google.com/forms/d/1woMBHckOJqNbIuXqa2UiJD4Q_6M5EKs0cGco6IJm-fM/edit"
+          }
+          rel="noreferrer"
+          target="_blank"
+          className="text-2xl"
+        >
+          <h5 className="lg:text-5xl">Registration</h5>
+        </a>
+      </div>
+
+      <p className="text-normal">
         Before registering, make sure to read and comply to the following rules
         and guidelines regarding the event:
       </p>
-      <p className="">
-        <h2>REGISTRATION</h2>
-        <ol>
-          {registration.map((item) => (
-            <li>{item}</li>
-          ))}
-        </ol>{" "}
-        <h2>VENUE</h2>{" "}
-        <ol>
-          {venue.map((item) => (
-            <li>{item}</li>
-          ))}
-        </ol>{" "}
-      </p>
-      <iframe
-        className="m-auto"
-        title="Gform"
-        src="https://docs.google.com/forms/d/e/1FAIpQLSeYqzG7pKLX4PCnbK1RmcAvZCyE_TCd8rpVob3Rsf1rE_k38A/viewform?embedded=true"
-        width="1000"
-        height="1500"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-      >
-        Loading…
-      </iframe>
+      <div className="grid grid-cols-2 gap-x-14">
+        <div>
+          <h3 className="my-5">Registration</h3>
+          <ol>
+            {registration.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ol>
+          <h3 className="my-5">VENUE</h3>
+          <ol>
+            {venue.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ol>
+        </div>
+        <div className="">
+          <h3 className="my-5">Socilictation</h3>
+          <ol>
+            {solicitation.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ol>
+          <h3 className="my-5">Socialize</h3>
+          <ol>
+            {socialize.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ol>
+        </div>
+      </div>
     </div>
   );
 };

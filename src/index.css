@@ -4,18 +4,29 @@
 
 @layer base {
   h1 {
-    @apply sm:text-7xl text-3xl my-8;
+    @apply lg:text-7xl text-3xl my-8;
     font-stretch: expanded;
   }
   h2 {
-    @apply sm:text-6xl;
+    @apply lg:text-6xl;
     font-stretch: expanded;
   }
   h3 {
+    @apply lg:text-4xl;
+    font-stretch: expanded;
+  }
+  h5 {
+    @apply text-mds lg:text-2xl;
     font-stretch: expanded;
   }
   p {
     @apply sm:text-1.5xl text-justify;
+  }
+  ol {
+    list-style: decimal;
+  }
+  li {
+    line-height: 1.9vw;
   }
 }
 

@@ -10,9 +10,16 @@ const EventsPage = () => {
       </div>
       <div className="mx-gutter lg:mx-gutterbig">
         <div className="justify-center flex">
-          <button className="w-3/5">
-            <span className="m-5 text-xl">BUY TICKETS NOW!</span>
-          </button>
+          <a
+            href={
+              "https://docs.google.com/forms/d/1woMBHckOJqNbIuXqa2UiJD4Q_6M5EKs0cGco6IJm-fM/edit"
+            }
+            rel="noreferrer"
+            target="_blank"
+            className="m-5 text-2xl"
+          >
+            <u>BUY TICKETS NOW!</u>
+          </a>
         </div>
         <div className="flex gap-x-[5vw] justify-start basis-0 mt-12 mb-8">
           <p className="max-w-[45vw]">

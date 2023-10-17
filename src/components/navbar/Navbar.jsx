@@ -53,7 +53,7 @@ const Navbar = () => {
         >
           <div class="flex flex-col gap-y-4 h-full gap-x-0 mt-5 lg:flex-row lg:items-stretch lg:justify-end lg:gap-y-0 lg:mt-0 lg:pl-7">
             <NavbarButton to="/">Home</NavbarButton>
-            <NavbarButton to="/events">Event</NavbarButton>
+            <NavbarButton to="/event">Event</NavbarButton>
             <NavbarButton to="/speakers">Speakers</NavbarButton>
             <NavbarButton to="/about">About Us</NavbarButton>
             <NavbarButton to="/register">Register</NavbarButton>
