@@ -12,8 +12,8 @@ const SpeakersPage = () => {
   return (
     <div className="m-gutterbig">
       <PeopleTray imageArray={speakerImages} firstText="" secondText="">
-        <h1 className="min-w-card text-center text-6xl text-ted">
-          <span className="text-3xl text-main">The</span>
+        <h1 className="text-center text-ted">
+          <span className="text-4xl text-main">The</span>
           <br /> Speakers
         </h1>
       </PeopleTray>

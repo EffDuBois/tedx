@@ -5,9 +5,14 @@
 @layer base {
   h1 {
     @apply sm:text-7xl text-3xl my-8;
+    font-stretch: expanded;
   }
   h2 {
     @apply sm:text-6xl;
+    font-stretch: expanded;
+  }
+  h3 {
+    font-stretch: expanded;
   }
   p {
     @apply sm:text-1.5xl text-justify;
@@ -38,7 +43,7 @@
 
   .bg-rotatingx:hover:before,
   .bg-rotatingx:hover:after {
-    transform: skewX(27deg) scaleX(0.4);
+    transform: skewX(27deg) scaleX(0.35);
   }
   .bg-rotatingx:before,
   .bg-rotatingx:after {
@@ -50,7 +55,7 @@
   }
   .bg-rotatingx > .x2:hover:before,
   .bg-rotatingx > .x2:hover:after {
-    transform: skewX(-27deg) scaleX(0.4);
+    transform: skewX(-27deg) scaleX(0.35);
   }
 
   .x2 > .content {
@@ -160,18 +165,24 @@
 @font-face {
   font-family: acumin-pro;
   font-weight: 900;
-  src: url(./resources/fonts/acumin-pro-ultra-black.otf) format("opentype");
+  src: url(./resources/fonts/acumin-pro-black.otf) format("opentype");
+}
+@font-face {
+  font-family: acumin-pro;
+  font-weight: 800;
+  font-stretch: expanded;
+  src: url(./resources/fonts/acumin-pro-wide-black.otf) format("opentype");
 }
 @font-face {
   font-family: acumin-pro;
   font-weight: 900;
-  font-stretch: ultra-expanded;
+  font-stretch: expanded;
   src: url(./resources/fonts/acumin-pro-wide-ultrablack.otf) format("opentype");
 }
 @font-face {
   font-family: acumin-pro;
   font-weight: 900;
-  font-stretch: ultra-expanded;
+  font-stretch: expanded;
   font-style: italic;
   src: url(./resources/fonts/AcuminVariableConcept-WideUltraBlackItalic.ttf);
 }
@@ -180,7 +191,6 @@ body {
   margin: 0;
   font-family: acumin-pro, Impact, sans-serif;
   font-weight: 900;
-  font-stretch: ultra-expanded;
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

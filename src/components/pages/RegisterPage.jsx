@@ -29,7 +29,7 @@ const RegisterPage = () => {
         Before registering, make sure to read and comply to the following rules
         and guidelines regarding the event:
       </p>
-      <p>
+      <p className="">
         <h2>REGISTRATION</h2>
         <ol>
           {registration.map((item) => (
