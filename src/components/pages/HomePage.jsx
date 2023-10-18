@@ -21,30 +21,8 @@ const HomePage = () => {
       </div>
 
       <div className="mt-20 ml-gutter mr-[6vw] lg:mx-gutterbig">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:my-12">
-          <h1 className="lg:text-left lg:my-0 lg:order-1">
-            About
-            <br />
-            <span className="text-ted">
-              TEDx
-              <br />
-              <span className="lg:text-5xl text-4xls">BITBangalore</span>
-            </span>
-          </h1>
-          <p className="">
-            <span className="text-ted">TEDxBITBangalore </span> is a channel to
-            propagate ideas globally through a local platform. We hold a{" "}
-            <u>university-level license</u> from TED to organise an independent
-            <span className="text-ted">
-              <sup>x</sup>
-            </span>{" "}
-            TED event to effectuate the same. It was initiated by a humble group
-            of young visionaries dedicated to bringing together{" "}
-            <i>ideas worth spreading</i>.
-          </p>
-        </div>
         <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] my-12">
-          <h1 className="lg:text-left lg:my-0 lg:order-1">
+          <h1 className="lg:text-left lg:my-0 lg:order-1 lg:mt-[20vh]">
             What <span className="lg:text-5xl">is</span>
             <br />
             <span className="text-ted underline lg:text-8xl text-6xls">
@@ -69,7 +47,28 @@ const HomePage = () => {
             self-organized.
           </p>
         </div>
-
+        <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:my-12">
+          <h1 className="lg:text-left lg:my-0 lg:order-1 ">
+            About
+            <br />
+            <span className="text-ted">
+              TEDx
+              <br />
+              <span className="lg:text-5xl text-4xls">BITBangalore</span>
+            </span>
+          </h1>
+          <p className="">
+            <span className="text-ted">TEDxBITBangalore </span> is a channel to
+            propagate ideas globally through a local platform. We hold a{" "}
+            <u>university-level license</u> from TED to organise an independent
+            <span className="text-ted">
+              <sup>x</sup>
+            </span>{" "}
+            TED event to effectuate the same. It was initiated by a humble group
+            of young visionaries dedicated to bringing together{" "}
+            <i>ideas worth spreading</i>.
+          </p>
+        </div>
         {/* <div className=" my-20 ">
           <img
             className="hover:opacity-50 w-full"
