@@ -20,7 +20,7 @@ const HomePage = () => {
         /> */}
       </div>
 
-      <div className="mt-20 mx-gutter lg:mx-gutterbig">
+      <div className="mt-20 ml-gutter mr-[6vw] lg:mx-gutterbig">
         <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:my-12">
           <h1 className="lg:text-left lg:my-0 lg:order-1">
             About
@@ -28,7 +28,7 @@ const HomePage = () => {
             <span className="text-ted">
               TEDx
               <br />
-              <span className="lg:text-5xl">BITBangalore</span>
+              <span className="lg:text-5xl text-4xls">BITBangalore</span>
             </span>
           </h1>
           <p className="">

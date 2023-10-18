@@ -12,7 +12,7 @@
     font-stretch: expanded;
   }
   h3 {
-    @apply lg:text-4xl;
+    @apply lg:text-4xl text-3xls;
     font-stretch: expanded;
   }
   h5 {
@@ -20,7 +20,7 @@
     font-stretch: expanded;
   }
   p {
-    @apply lg:text-1.5xl text-lgs text-left lg:text-justify [font-stretch:expanded];
+    @apply lg:text-1.5xl lg:text-justify lg:font-black [font-stretch:expanded]  text-lgs text-left ;
   }
   ol {
     @apply list-inside list-decimal;
@@ -198,6 +198,29 @@
   font-stretch: expanded;
   font-style: italic;
   src: url(./resources/fonts/AcuminVariableConcept-WideUltraBlackItalic.ttf);
+}
+@font-face {
+  font-family: rubik;
+  font-weight: 800;
+  src: url(./resources//fonts/Rubik-Black.ttf);
+}
+
+@font-face {
+  font-family: fette-steinschrift;
+  font-weight: 800;
+  src: url(./resources/fonts/FetteSteinschrift.ttf);
+}
+@font-face {
+  font-family: heading-pro-trial;
+  font-stretch: expanded;
+  font-weight: 800;
+  src: url(./resources/fonts/heading-pro-wide-trial.heavy.ttf);
+}
+@font-face {
+  font-family: druk;
+   font-stretch: expanded;
+   font-weight: 700;
+  src: url(./resources/fonts/Druk-Wide-Bold.ttf);
 }
 
 body {
