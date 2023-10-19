@@ -33,7 +33,13 @@ const EventsPage = () => {
             <Counter />
           </div>
           <p className="mt-4 lg:m-0">
-            InsightX is the annual flagship event of TEDxBITBangalore
+            INSIGHTX, TEDxBITBangalore's annual talk show, is a celebration of
+            innovative ideas and transformative experiences. We bring together
+            thought leaders and change-makers to inspire action, fostering
+            curiosity, empathy, and innovation. Through our curated speakers, we
+            aim to ignite the spark for change, inviting you to explore the
+            boundless potential of the human mind and find the insight to shape
+            a brighter future.
           </p>
         </div>
         <div className="h-52 flex justify-center item-center flex flex-col">
