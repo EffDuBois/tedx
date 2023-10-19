@@ -69,7 +69,7 @@ const AboutPage = () => {
       <PersonCardDesc
         name="Ashish A Ankam"
         title="Design Head"
-        contact=""
+        contact="+91 63617 15169"
         image={""}
         heading={
           <h2 className=" mb-3">
@@ -80,9 +80,22 @@ const AboutPage = () => {
         `}
       />
       <PersonCardDesc
+        name="Siri Prakash"
+        title="Curation Head"
+        contact="+91 93363 70940"
+        image={""}
+        heading={
+          <h2 className=" mb-3">
+            Head of <span className="text-ted">Curation</span>
+          </h2>
+        }
+        description={`The visionary force behind our extraordinary events. Their mission? To seek, select, and cultivate the most compelling ideas, bringing them to our stage to inspire and transform the world, headed by a resilient and visionary head who holds pivotal role in shaping the essence and impact of our event. These dedicated individuals are the gatekeepers of innovation, tirelessly working to curate a line-up that reflects the very essence of "Ideas Worth Spreading.”
+  `}
+      />
+      <PersonCardDesc
         name="Harini Giridhar"
         title="Creative Head"
-        contact=""
+        contact="+91 74068 98300"
         image={""}
         heading={
           <h2 className=" mb-3">
@@ -92,19 +105,7 @@ const AboutPage = () => {
         description={`As the wellspring that gives birth to the river, they are the headwaters to our event's flow. With the skill of painters, they create intricate brushstrokes on a blank canvas. They are the idea architects, problem solvers, and pioneers who stretch the boundaries of what can be achieved.
         Dedicated to their craft, they invest tireless effort in research, innovative idea exploration, concept development, prototyping, refinement, and the invaluable feedback loop. It is the magic of our creative team that gives each event its distinct pulse, weaving together the threads of imagination to create moments that linger in the memory, inspiring and illuminating.`}
       />
-      <PersonCardDesc
-        name="Siri Prakash"
-        title="Curation Head"
-        contact="+91 93363 70940"
-        image={""}
-        heading={
-          <h2 className=" mb-3">
-            <span className="text-ted">Curation</span> Team
-          </h2>
-        }
-        description={`The visionary force behind our extraordinary events. Their mission? To seek, select, and cultivate the most compelling ideas, bringing them to our stage to inspire and transform the world, headed by a resilient and visionary head who holds pivotal role in shaping the essence and impact of our event. These dedicated individuals are the gatekeepers of innovation, tirelessly working to curate a line-up that reflects the very essence of "Ideas Worth Spreading.”
-    `}
-      />
+
       <h2 className="mt-6 text-center">Design Team</h2>
       <TeamTray className imageArray={designTeamImages} />
     </div>
