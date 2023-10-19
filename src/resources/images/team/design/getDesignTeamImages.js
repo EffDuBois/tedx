@@ -7,7 +7,7 @@ let teamImages = [];
 imagePaths.map((path) =>
   teamImages.push({
     name: (path.match(/(.*)@/)[1]).replaceAll(/_/g," "),
-    title: (path.match(/@(.*)/)[1]).replaceAll(/_/g, " ").replace(".jpg",""),
+    title: (path.match(/@(.*)/)[1]).replaceAll(/_/g, " ").replace(".jpg","").replace(".jpeg",""),
     path: require("./" + path),
   })
 );
