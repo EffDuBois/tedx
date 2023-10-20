@@ -3,7 +3,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/26028302-102b-43b4-a3ac-b6797200f2a8/deploy-status)](https://app.netlify.com/sites/tedxbitbangalore/deploys)
 
 ## [TEDXBITBANGALORE.COM](https://tedxbitbangalore.com)
-[![TEDxBITBangalore Website](https://github.com/EffDuBois/Resources/blob/main/Images/Screenshot%202023-10-19%20042653.png?raw=true)](https://tedxbitbangalore.com)
+[![TEDxBITBangalore Website]https://github.com/EffDuBois/Resources/blob/main/Images/tedx%20website.png?raw=true)](https://tedxbitbangalore.com)
 This is the source code for TEDx BIT Bangalore's website. It's built on React, with Tailwind. It's a static frontend only website built to display information about the annual TEDx event held at BIT.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
