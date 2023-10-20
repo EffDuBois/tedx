@@ -4,19 +4,19 @@ import PersonCard from "./PersonCardFolding";
 const PersonCardDesc = (props) => {
   return (
     <div
-      className={`flex flex-col items-center lg:items-start lg:flex-row my-8 lg:my-16`}
+      className={`flex lg:block lg:overflow-hidden flex-col items-center lg:items-start lg:flex-row my-8 lg:my-16`}
     >
       <PersonCard
-        className={`lg:h-[42vw] lg:w-[43vw] mb-4 lg:m-0 w-[90vw] h-[85vw]`}
+        className={`lg:h-[34vw] lg:w-[34vw] lg:float-left mb-4 lg:mb-4 lg:mr-6 w-[90vw] h-[85vw] `}
         name={props.name}
         title={props.title}
         contact={props.contact}
         src={props.image}
       />
-      <div className="ml-[2vw]">
+      <p>
         <h2 className="text-main mt-0">{props.heading}</h2>
-        <p>{props.description}</p>
-      </div>
+        {props.description}
+      </p>
     </div>
   );
 };

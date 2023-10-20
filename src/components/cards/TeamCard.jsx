@@ -8,7 +8,7 @@ const TeamCard = (props) => {
       <div className="bg-rotatingx x2">
         <div className="content h-full w-full">
           <div
-            className=" w-full h-full bg-cover hover:opacity-0 duration-150 absolute"
+            className=" w-full h-full bg-cover bg-center hover:opacity-0 duration-150 absolute"
             style={{ backgroundImage: `url(${props.src})` }}
           />
           {/* <img

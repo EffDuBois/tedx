@@ -21,25 +21,24 @@ const EventsPage = () => {
             <u>BUY TICKETS NOW!</u>
           </a>
         </div>
-        <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:my-12">
-          <div className="lg:order-1 ">
-            <h1 className="text-left my-0 ">
-              <span className="text-ted">
-                <br />
-                INSIGHTX
-              </span>
+        <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:my-12 lg:items-center">
+          <div className="lg:order-1 lg:pb-20">
+            <h1 className="text-left my-0 lg:text-8xl leading-1">
+              <span className="text-ted">INSIGHTX</span>
             </h1>
             in
             <Counter />
           </div>
           <p className="mt-4 lg:m-0">
-            INSIGHTX, TEDxBITBangalore's annual talk show, is a celebration of
-            innovative ideas and transformative experiences. We bring together
-            thought leaders and change-makers to inspire action, fostering
-            curiosity, empathy, and innovation. Through our curated speakers, we
-            aim to ignite the spark for change, inviting you to explore the
-            boundless potential of the human mind and find the insight to shape
-            a brighter future.
+            Within the tapestry of InsightX, the mundane fades into the
+            backdrop, and the extraordinary takes center stage. InsightX takes
+            the role of a lighthouse that shines light on the darkness covering
+            ‘that’ hidden in plain sight. At its core, InsightX celebrates the
+            pursuit of wisdom and the art of understanding. It nurtures the
+            growth of a third eye, a metaphorical lens that grants individuals
+            the ability to perceive the world with newfound clarity, see beyond
+            the limits of the known and explore the unnoticed dimensions of
+            knowledge and understanding.
           </p>
         </div>
         <div className="h-52 flex justify-center item-center flex flex-col">

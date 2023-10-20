@@ -21,8 +21,8 @@ const HomePage = () => {
       </div>
 
       <div className="mt-20 ml-gutter mr-[6vw] lg:mx-gutterbig">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] my-12">
-          <h1 className="lg:text-left lg:my-0 lg:order-1 lg:mt-[20vh]">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:items-center my-12">
+          <h1 className="lg:text-left lg:my-0 lg:order-1 lg:mb-16">
             What <span className="lg:text-5xl">is</span>
             <br />
             <span className="text-ted underline lg:text-8xl text-6xls">
