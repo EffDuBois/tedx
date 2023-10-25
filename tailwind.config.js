@@ -59,10 +59,10 @@ module.exports = {
       },
       backgroundColor: {
         main: "white",
-        invert: "#040410",
+        invert: "#1b1b1b",
       },
       colors: {
-        main: "#040410",
+        main: "#1b1b1b",
         invert: "white",
         ted: "red",
       },
