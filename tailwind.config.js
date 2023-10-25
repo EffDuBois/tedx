@@ -59,12 +59,12 @@ module.exports = {
       },
       backgroundColor: {
         main: "white",
-        invert: "#1b1b1b",
+        invert: "#000000",
       },
       colors: {
-        main: "#1b1b1b",
+        main: "#000000",
         invert: "white",
-        ted: "red",
+        ted: "#eb0028",
       },
     },
   },
