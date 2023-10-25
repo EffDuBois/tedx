@@ -13,8 +13,8 @@ const PersonCardDesc = (props) => {
         contact={props.contact}
         src={props.image}
       />
-      <p>
-        <h2 className="text-main mt-0 bg-ted h-full">{props.heading}</h2>
+      <p className=" bg-ted h-full">
+        <h2 className="text-main mt-0">{props.heading}</h2>
         {props.description}
       </p>
     </div>

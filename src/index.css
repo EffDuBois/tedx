@@ -60,7 +60,7 @@
   }
   .bg-rotatingx:before,
   .bg-rotatingx:after {
-    background: red;
+    @apply bg-ted;
   }
   .bg-rotatingx > .x2 {
     height: 100%;
