@@ -58,12 +58,12 @@ module.exports = {
         card: "26vw",
       },
       backgroundColor: {
-        main: "white",
-        invert: "#000000",
-      },
-      colors: {
         main: "#000000",
         invert: "white",
+      },
+      colors: {
+        main: "white",
+        invert: "#000000",
         ted: "#eb0028",
       },
     },
