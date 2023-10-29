@@ -20,7 +20,7 @@
     font-stretch: expanded;
   }
   p {
-    @apply lg:text-1.5xl lg:text-justify lg:font-black [font-stretch:expanded]  text-lgs text-left ;
+    @apply lg:text-1.5xl lg:text-justify lg:font-black [font-stretch:expanded] text-lgs text-left ;
   }
   ol {
     @apply list-inside list-decimal;

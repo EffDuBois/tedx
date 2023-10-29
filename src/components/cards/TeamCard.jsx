@@ -3,7 +3,7 @@ import React from "react";
 const TeamCard = (props) => {
   return (
     <div
-      className={` ${props.className} bg-rotatingx w-[75vw] h-[85vw] lg:w-team lg:h-team flex-none ${props.className}`}
+      className={` ${props.className} bg-rotatingx h-teamm lg:h-team ${props.className}`}
     >
       <div className="bg-rotatingx x2">
         <div className="content h-full w-full">

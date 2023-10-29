@@ -41,11 +41,13 @@ module.exports = {
       },
       width: {
         card: "26vw",
-        team: "21vw",
+        team: "18vw",
+        teamm: "75vw",
       },
       height: {
         card: "26vw",
         team: "26vw",
+        teamm: "65vw",
       },
       margin: {
         gutterbig: "4vw",
