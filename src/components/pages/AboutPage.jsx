@@ -1,12 +1,12 @@
 import React from "react";
 
-import imgPrincipal from "../../resources/images/team/core/principal.jpg";
-import imgOrganiser from "../../resources/images/team/core/Shivang_Jha@Organiser.jpg";
-import imgMarketing from "../../resources/images/team/core/AshutoshTandon-2.jpg";
-import imgContent from "../../resources/images/team/core/Nikita_Tenjerla@Head_Of_Content.jpg";
-import imgDesign from "../../resources/images/team/core/Ashish_A_Ankam@Head_Of_Design_and_Technical_Team.jpg";
-import imgCuration from "../../resources/images/team/core/Siri_Prakash@Head_Of_Curation.jpg";
-import imgCreative from "../../resources/images/team/core/Harini_Giridhar@Head_Of_Creative.jpg";
+import imgPrincipal from "../../resources/images/team/core/principal.webp";
+import imgOrganiser from "../../resources/images/team/core/Shivang_Jha@Organiser.webp";
+import imgMarketing from "../../resources/images/team/core/AshutoshTandon-2.webp";
+import imgContent from "../../resources/images/team/core/Nikita_Tenjerla@Head_Of_Content.webp";
+import imgDesign from "../../resources/images/team/core/Ashish_A_Ankam@Head_Of_Design_and_Technical_Team.webp";
+import imgCuration from "../../resources/images/team/core/Siri_Prakash@Head_Of_Curation.webp";
+import imgCreative from "../../resources/images/team/core/Harini_Giridhar@Head_Of_Creative.webp";
 
 import designTeamImages from "../../resources/images/team/design/getImages";
 import contentTeamImages from "../../resources/images/team/content/getImages";

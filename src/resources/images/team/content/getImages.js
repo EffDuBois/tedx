@@ -1,6 +1,6 @@
 import getImagePaths from "../../../../components/scripts/getImagePaths.js";
 
-const directory = require.context("./", false, /\.(png|jpe?g|svg)$/);
+const directory = require.context("./", false, /\.(png|jpe?g|svg|webp)$/);
 let imagePaths = getImagePaths(directory);
 
 let teamImages = [];
@@ -11,7 +11,8 @@ imagePaths.map((path) =>
       .match(/@(.*)/)[1]
       .replaceAll(/_/g, " ")
       .replace(".jpg", "")
-      .replace(".jpeg", ""),
+      .replace(".jpeg", "")
+      .replace(".webp", ""),
     path: require("./" + path),
   })
 );

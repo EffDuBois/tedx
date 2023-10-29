@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../resources/images/logos/insightx/logo-Insightx-nobg.png";
+import logo from "../../resources/images/logos/insightx/logo-Insightx-nobg.webp";
 import Counter from "../counters/Counter";
 import sponsorImages from "../../resources/images/sponsors/getSponsorImages";
 const EventsPage = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 
-import logobg from "../../resources/images/logos/insightx/logo-Insightx-nobg.png";
+import logobg from "../../resources/images/logos/insightx/logo-Insightx-nobg.webp";
 
 const HomePage = () => {
   return (
