@@ -56,7 +56,7 @@
 
   .bg-rotatingx:hover:before,
   .bg-rotatingx:hover:after {
-    transform: skewX(27deg) scaleX(0.35);
+    transform: skewX(24deg) scaleX(0.35);
   }
   .bg-rotatingx:before,
   .bg-rotatingx:after {
@@ -68,7 +68,7 @@
   }
   .bg-rotatingx > .x2:hover:before,
   .bg-rotatingx > .x2:hover:after {
-    transform: skewX(-27deg) scaleX(0.35);
+    transform: skewX(-24deg) scaleX(0.35);
   }
 
   .x2 > .content {
