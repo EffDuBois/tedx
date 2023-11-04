@@ -11,7 +11,7 @@ const PersonCard = (props) => {
             ""
           ) : (
             <div
-              className=" w-full h-full bg-cover hover:opacity-0 duration-150 absolute"
+              className=" w-full h-full bg-cover hover:opacity-0 duration-150 absolute bg-center"
               style={{ backgroundImage: `url(${props.src})` }}
             />
           )}

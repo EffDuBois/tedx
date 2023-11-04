@@ -2,7 +2,7 @@ import React from "react";
 
 import imgPrincipal from "../../resources/images/team/core/principal.webp";
 import imgOrganiser from "../../resources/images/team/core/Shivang_Jha@Organiser.webp";
-import imgMarketing from "../../resources/images/team/core/AshutoshTandon-2.webp";
+import imgMarketing from "../../resources/images/team/core/Ashutosh_Tandon@Head_Of_Marketing.webp";
 import imgContent from "../../resources/images/team/core/Nikita_Tenjerla@Head_Of_Content.webp";
 import imgDesign from "../../resources/images/team/core/Ashish_A_Ankam@Head_Of_Design_and_Technical_Team.webp";
 import imgCuration from "../../resources/images/team/core/Siri_Prakash@Head_Of_Curation.webp";
@@ -31,7 +31,7 @@ const AboutPage = () => {
           }
           title="Principal, BIT Bangalore"
           image={imgPrincipal}
-          description="Dr. Aswath M U is an esteemed academician and a dedicated professional who oversees our club, TEDxBITBangalore, in his role as the faculty coordinator. With a passion for education and a commitment to nurturing students' talents, Dr. Ashwath plays a pivotal role in the success and growth of our club. As a principal, Dr. Ashwath possesses exceptional leadership qualities, known for his ability to inspire and motivate students to achieve their full potential. Under his guidance, the club has flourished, providing a platform for students to become the best versions of themselves and for various speakers to share ideas and innovations. With his profound knowledge, exceptional leadership skills, and unwavering support, he continues to inspire and guide students, leaving a lasting positive impact on their academic and personal journeys."
+          description="Dr. Aswath M U is an esteemed academician and a dedicated professional who oversees our club, TEDxBITBangalore, in his role as the faculty coordinator. With a passion for education and a commitment to nurturing students' talents, Dr. Ashwath plays a pivotal role in the success and growth of our club. As a principal, Dr. Ashwath possesses exceptional leadership qualities, known for his ability to inspire and motivate students to achieve their full potential. Under his guidance, the club has flourished, providing a platform for students to become the best versions of themselves and for various speakers to share ideas and innovations. With his profound knowledge, exceptional leadership skills, and unwavering support, he continues to inspire and guide students, leaving a lasting positive impact on their journeys."
         />
       </div>
 
@@ -75,7 +75,7 @@ const AboutPage = () => {
             Head of <span className="text-ted lg:text-invert">Content</span>
           </h2>
         }
-        description={`The TEDx BIT Bangalore Content Team, under the adept leadership of the Content Head, is a dynamic and dedicated group responsible for curating and crafting the compelling content that forms the backbone of our TEDx events. With an unwavering commitment to excellence, the Content Head leads the team and helps guide their creative endeavors. Together, they create thought-provoking material for the main event, pen insightful articles for the iconic "TEDlet" newsletter, and contribute engaging content to TEDx magazines. Additionally, their skills extend to writing captivating snippets for advertisements and supporting marketing team pitches. Collaborative, organized, and driven by teamwork, this group plays a pivotal role in delivering TEDx BIT Bangalore's impactful and inspiring experiences.
+        description={`Under the adept leadership of the Content Head, the TEDx BIT Bangalore Content Team is a dedicated group crafting compelling content for TEDx events. They create thought-provoking material, pen insightful articles for the "TEDlet" newsletter, and contribute to TEDx magazines. Their skills also include crafting engaging snippets for ads and supporting marketing pitches, all in the spirit of collaboration and organization, contributing to TEDx BIT Bangalore's impactful experiences.
     `}
         teamImages={contentTeamImages}
       />
