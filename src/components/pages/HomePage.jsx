@@ -7,8 +7,7 @@ const HomePage = () => {
     <div className="">
       <div className=" lg:border-b-4 border-white flex flex-col">
         <div className=" h-[80vh] lg:h-[75vh] items-center  flex lg:mb-14">
-          <img className="max-md:hidden" src={logobg} alt="insightx-logo" />
-          <h1 className="text-6.5xls text-left lg:hidden">Insightx</h1>
+          <img className="" src={logobg} alt="insightx-logo" />
         </div>
         {/* <p className="text-center text-normal [font-stretch:normal]">
           Scroll
@@ -47,14 +46,14 @@ const HomePage = () => {
             self-organized.
           </p>
         </div>
-        <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:my-12">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] my-12">
           <h1 className="lg:text-left lg:my-0 lg:order-1 ">
             About
             <br />
             <span className="text-ted">
               TEDx
               <br />
-              <span className="lg:text-5xl text-4xls">BITBangalore</span>
+              <span className="lg:text-5xl text-4.5xls">BITBangalore</span>
             </span>
           </h1>
           <p className="">

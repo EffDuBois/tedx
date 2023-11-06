@@ -5,10 +5,13 @@ import sponsorImages from "../../resources/images/sponsors/getSponsorImages";
 const EventsPage = () => {
   return (
     <div>
-      <div className="lg:h-[75vh] h-[10vh] mt-[8vh] items-center flex">
+      {/* <div className="lg:h-[75vh] h-[10vh] mt-[8vh] items-center flex">
         <img className="w-[95vw]" src={logo} alt="Theme Video" />
-      </div>
-      <div className="mx-gutter lg:mx-gutterbig">
+      </div> */}
+      <div className=" flex flex-col">
+        <div className=" h-[80vh] lg:h-[75vh] items-center  flex lg:mb-14">
+          <img className="" src={logo} alt="insightx-logo" />
+        </div>
         <div className="justify-center flex">
           <a
             href={
@@ -21,6 +24,9 @@ const EventsPage = () => {
             <u>BUY TICKETS NOW!</u>
           </a>
         </div>
+      </div>
+      <div className="mx-gutter lg:mx-gutterbig my-12">
+        
         <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:my-12 lg:items-center">
           <div className="lg:order-1 lg:pb-20">
             <h1 className="text-left my-0 lg:text-8xl leading-1">

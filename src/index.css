@@ -4,11 +4,11 @@
 
 @layer base {
   h1 {
-    @apply lg:text-7xl text-left text-4.5xls lg:my-8 my-4;
+    @apply lg:text-7xl text-left text-6xls lg:my-8 my-6;
     font-stretch: expanded;
   }
   h2 {
-    @apply lg:text-6xl text-3xls;
+    @apply lg:text-6xl text-4.5xls;
     font-stretch: expanded;
   }
   h3 {
@@ -161,7 +161,20 @@
 /* Fonts */
 @font-face {
   font-family: acumin-pro;
+  font-weight: 200;
+  font-stretch: normal;
+  src: url(./resources/fonts/acumin-pro-extralight.otf) format("opentype");
+}
+@font-face {
+  font-family: acumin-pro;
+  font-weight: 300;
+  font-stretch: normal;
+  src: url(./resources/fonts/acumin-pro-light.otf) format("opentype");
+}
+@font-face {
+  font-family: acumin-pro;
   font-weight: 400;
+  font-stretch: normal;
   src: url(./resources/fonts/acumin-pro.otf) format("opentype");
 }
 @font-face {

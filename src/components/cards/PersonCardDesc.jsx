@@ -15,8 +15,8 @@ const PersonCardDesc = (props) => {
           contact={props.contact}
           src={props.image}
         />
-        <p className="[font-stretch: normal] font-normal normal-case text-left lg:bg-ted lg:pl-6 lg:p-4 lg:text-1.5xl lg:tracking-tight text-slate-200">
-          <h2 className="mt-0">{props.heading}</h2>
+        <p className="[font-stretch: normal] font-light normal-case text-left lg:bg-ted lg:pl-6 lg:p-4 lg:text-1.5xl lg:tracking-tight text-slate-200">
+          <h2 className="mt-0 font-black">{props.heading}</h2>
           {props.description}
         </p>
       </div>
