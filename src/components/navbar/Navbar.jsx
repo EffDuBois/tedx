@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <header class="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full bg-invert text-lg lg:py-0 sticky top-0">
+    <header class="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full bg-main text-lg lg:py-0 sticky top-0 ">
       <nav
         class="relative w-full  px-4 lg:flex lg:items-center lg:justify-between"
         aria-label="Global"
@@ -16,7 +16,7 @@ const Navbar = () => {
             <TEDxLogo />
           </div> */}
           <Link className="flex-none" to="/">
-            <h1 className="text-xls lg:text-5xl text-invert">
+            <h1 className="text-xls lg:text-5xl">
               <span className="text-ted">
                 TED<sup>x</sup>
               </span>
@@ -54,7 +54,6 @@ const Navbar = () => {
           <div class="flex flex-col h-full gap-x-0 lg:flex-row lg:items-stretch lg:justify-end lg:gap-y-0 lg:mt-0 lg:pl-7">
             <NavbarButton to="/">Home</NavbarButton>
             <NavbarButton to="/event">Event</NavbarButton>
-            <NavbarButton to="/speakers">Speakers</NavbarButton>
             <NavbarButton to="/about">About Us</NavbarButton>
             <NavbarButton to="/register">Register</NavbarButton>
           </div>

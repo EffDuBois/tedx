@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar";
 import Socials from "./components/navbar/Socials";
@@ -13,10 +13,9 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<Navigate to={{pathname: '/event'}}/>}/>
         <Route path="/home" element={<HomePage />} />
         <Route path="/event" element={<EventsPage />} />
-        <Route path="/speakers" element={<SpeakersPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/register" element={<RegisterPage />} />
       </Routes>

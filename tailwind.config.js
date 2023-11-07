@@ -66,7 +66,7 @@ module.exports = {
       colors: {
         main: "white",
         invert: "#000000",
-        ted: "#eb0028",
+        ted: "#e32020",
       },
     },
   },
