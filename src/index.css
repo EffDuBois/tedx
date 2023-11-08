@@ -20,7 +20,7 @@
     font-stretch: expanded;
   }
   p {
-    @apply lg:text-1.5xl lg:text-justify lg:font-black [font-stretch:expanded] text-lgs text-left ;
+    @apply lg:text-1.5xl lg:text-justify lg:font-black [font-stretch:expanded] text-lgs text-left;
   }
   ol {
     @apply list-inside list-decimal;
@@ -163,77 +163,49 @@
   font-family: acumin-pro;
   font-weight: 200;
   font-stretch: normal;
-  src: url(./resources/fonts/acumin-pro-extralight.otf) format("opentype");
+  src: url(./resources/fonts/acumin-pro-extralight-webfont.woff2)
+      format("woff2"),
+    url(./resources/fonts/acumin-pro-extralight-webfont.woff) format("woff");
 }
 @font-face {
   font-family: acumin-pro;
   font-weight: 300;
   font-stretch: normal;
-  src: url(./resources/fonts/acumin-pro-light.otf) format("opentype");
+  src: url(./resources/fonts/acumin-pro-light-webfont.woff2) format("woff2"),
+    url(./resources/fonts/acumin-pro-light-webfont.woff) format("woff");
 }
 @font-face {
   font-family: acumin-pro;
   font-weight: 400;
   font-stretch: normal;
-  src: url(./resources/fonts/acumin-pro.otf) format("opentype");
+  src: url(./resources/fonts/acumin-pro-webfont.woff2) format("woff2"),
+    url(./resources/fonts/acumin-pro-webfont.woff) format("woff");
 }
 @font-face {
   font-family: acumin-pro;
   font-weight: 800;
-  font-stretch: condensed;
-  src: url(./resources//fonts/acumin-pro-condensed-black.otf);
-}
-@font-face {
-  font-family: acumin-pro;
-  font-weight: 800;
-  src: url(./resources/fonts/acumin-pro-black.otf);
+  src: url(./resources/fonts/acumin-pro-black-webfont.woff2) format("woff2"),
+    url(./resources/fonts/acumin-pro-black-webfont.woff) format("woff");
 }
 @font-face {
   font-family: acumin-pro;
   font-weight: 900;
-  src: url(./resources/fonts/acumin-pro-black.otf) format("opentype");
+  src: url(./resources/fonts/acumin-pro-black-webfont.woff2) format("woff2"),
+    url(./resources/fonts/acumin-pro-black-webfont.woff) format("woff");
 }
 @font-face {
   font-family: acumin-pro;
   font-weight: 800;
   font-stretch: expanded;
-  src: url(./resources/fonts/acumin-pro-wide-black.otf) format("opentype");
+  src: url(./resources/fonts/acumin-pro-wide-black-webfont.woff2) format("woff2"),
+    url(./resources/fonts/acumin-pro-wide-black-webfont.woff) format("woff");
 }
 @font-face {
   font-family: acumin-pro;
   font-weight: 900;
   font-stretch: expanded;
-  src: url(./resources/fonts/acumin-pro-wide-ultrablack.otf) format("opentype");
-}
-@font-face {
-  font-family: acumin-pro;
-  font-weight: 900;
-  font-stretch: expanded;
-  font-style: italic;
-  src: url(./resources/fonts/AcuminVariableConcept-WideUltraBlackItalic.ttf);
-}
-@font-face {
-  font-family: rubik;
-  font-weight: 800;
-  src: url(./resources//fonts/Rubik-Black.ttf);
-}
-
-@font-face {
-  font-family: fette-steinschrift;
-  font-weight: 800;
-  src: url(./resources/fonts/FetteSteinschrift.ttf);
-}
-@font-face {
-  font-family: heading-pro-trial;
-  font-stretch: expanded;
-  font-weight: 800;
-  src: url(./resources/fonts/heading-pro-wide-trial.heavy.ttf);
-}
-@font-face {
-  font-family: druk;
-   font-stretch: expanded;
-   font-weight: 700;
-  src: url(./resources/fonts/Druk-Wide-Bold.ttf);
+  src: url(./resources/fonts/acumin-pro-wide-ultrablack-webfont.woff2) format("woff2"),
+    url(./resources/fonts/acumin-pro-wide-ultrablack-webfont.woff) format("woff");
 }
 
 body {

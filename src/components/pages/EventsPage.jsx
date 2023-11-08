@@ -7,7 +7,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import PeopleTray from "../trays/PeopleTray";
 import Counter from "../counters/Counter";
 
-import logo from "../../resources/images/logos/insightx/logo-Insightx-nobg.webp";
+import logo from "../../resources/images/logos/insightx/logo-insightx-nobg.webp";
 
 import sponsorImages from "../../resources/images/sponsors/getSponsorImages";
 import speakerImages from "../../resources/images/speakers/getSpeakerImages";
@@ -19,8 +19,8 @@ const EventsPage = () => {
         <img className="w-[95vw]" src={logo} alt="Theme Video" />
       </div> */}
       <div className=" flex flex-col">
-        <div className=" h-[80vh] lg:h-[75vh] items-center  flex lg:mb-14">
-          <img className="" src={logo} alt="insightx-logo" />
+        <div className=" h-[80vh] lg:h-[75vh] items-center mx-2 flex lg:mb-14">
+          <img className="" src={logo} alt="insightx-logo" width={1500}/>
         </div>
         <div className="justify-center flex">
           <a
@@ -63,7 +63,7 @@ const EventsPage = () => {
           <p className="text-center"> Bangalore Institute of Technology,</p>
           <p className="text-center">KR Road, VV Puram, Bangalore - 560094</p>
         </div>
-        
+
         {/* Speakers */}
         <PeopleTray imageArray={speakerImages} firstText="" secondText="">
           <h1 className="text-center text-ted">
@@ -100,7 +100,7 @@ const EventsPage = () => {
           </h1>
           <div className="grid grid-cols-2 gap-x-10 gap-y-20 place-content-center">
             {sponsorImages.map((img, index) => {
-              return <img key={index} src={img.path} alt={img.name} />;
+              return <img width={300} key={index} src={img.path} alt={img.name} />;
             })}
           </div>
         </div>

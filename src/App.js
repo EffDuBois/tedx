@@ -4,7 +4,6 @@ import Navbar from "./components/navbar/Navbar";
 import Socials from "./components/navbar/Socials";
 import HomePage from "./components/pages/HomePage";
 import EventsPage from "./components/pages/EventsPage";
-import SpeakersPage from "./components/pages/SpeakersPage";
 import AboutPage from "./components/pages/AboutPage";
 import RegisterPage from "./components/pages/RegisterPage";
 
