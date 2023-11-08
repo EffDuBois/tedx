@@ -166,6 +166,7 @@
   src: url(./resources/fonts/acumin-pro-extralight-webfont.woff2)
       format("woff2"),
     url(./resources/fonts/acumin-pro-extralight-webfont.woff) format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: acumin-pro;
@@ -173,6 +174,7 @@
   font-stretch: normal;
   src: url(./resources/fonts/acumin-pro-light-webfont.woff2) format("woff2"),
     url(./resources/fonts/acumin-pro-light-webfont.woff) format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: acumin-pro;
@@ -180,37 +182,45 @@
   font-stretch: normal;
   src: url(./resources/fonts/acumin-pro-webfont.woff2) format("woff2"),
     url(./resources/fonts/acumin-pro-webfont.woff) format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: acumin-pro;
   font-weight: 800;
   src: url(./resources/fonts/acumin-pro-black-webfont.woff2) format("woff2"),
     url(./resources/fonts/acumin-pro-black-webfont.woff) format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: acumin-pro;
   font-weight: 900;
   src: url(./resources/fonts/acumin-pro-black-webfont.woff2) format("woff2"),
     url(./resources/fonts/acumin-pro-black-webfont.woff) format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: acumin-pro;
   font-weight: 800;
   font-stretch: expanded;
-  src: url(./resources/fonts/acumin-pro-wide-black-webfont.woff2) format("woff2"),
+  src: url(./resources/fonts/acumin-pro-wide-black-webfont.woff2)
+      format("woff2"),
     url(./resources/fonts/acumin-pro-wide-black-webfont.woff) format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: acumin-pro;
   font-weight: 900;
   font-stretch: expanded;
-  src: url(./resources/fonts/acumin-pro-wide-ultrablack-webfont.woff2) format("woff2"),
-    url(./resources/fonts/acumin-pro-wide-ultrablack-webfont.woff) format("woff");
+  src: url(./resources/fonts/acumin-pro-wide-ultrablack-webfont.woff2)
+      format("woff2"),
+    url(./resources/fonts/acumin-pro-wide-ultrablack-webfont.woff)
+      format("woff");
+  font-display: swap;
 }
 
 body {
   margin: 0;
-  font-family: acumin-pro, Impact, sans-serif;
+  font-family: acumin-pro, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
