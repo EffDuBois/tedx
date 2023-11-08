@@ -10,7 +10,7 @@ const Socials = () => {
   return (
     <div className="bg-invert text-invert min-h-[35vh] px-[8vw] flex lg:flex-row justify-between flex-col">
       <div className="lg:py-[8vh] pt-[6vh]">
-        <img className="" width={300} src={logo_tedx} alt="tedxbitbangalore logo" />
+        <img className="" width={300} height={107} src={logo_tedx} alt="tedxbitbangalore logo" />
         <p className="text-center pt-6 lg:text-left text-m self-center font-normal [font-stretch:normal]">
           This independent TEDx event is operated under license from TED.
         </p>

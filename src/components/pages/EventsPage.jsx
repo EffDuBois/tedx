@@ -20,7 +20,7 @@ const EventsPage = () => {
       </div> */}
       <div className=" flex flex-col">
         <div className=" h-[80vh] lg:h-[75vh] items-center mx-2 flex lg:mb-14">
-          <img className="" src={logo} alt="insightx-logo" width={1500}/>
+          <img className="" src={logo} alt="insightx-logo" width={1500} height={182}/>
         </div>
         <div className="justify-center flex">
           <a
@@ -100,7 +100,7 @@ const EventsPage = () => {
           </h1>
           <div className="grid grid-cols-2 gap-x-10 gap-y-20 place-content-center">
             {sponsorImages.map((img, index) => {
-              return <img width={300} key={index} src={img.path} alt={img.name} />;
+              return <img width={300} height={300} key={index} src={img.path} alt={img.name} />;
             })}
           </div>
         </div>
