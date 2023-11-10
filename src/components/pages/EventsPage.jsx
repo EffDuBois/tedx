@@ -19,7 +19,7 @@ const EventsPage = () => {
         <img className="w-[95vw]" src={logo} alt="Theme Video" />
       </div> */}
       <div className=" flex flex-col">
-        <div className=" h-[80vh] lg:h-[75vh] items-center mx-2 flex lg:mb-14">
+        <div className=" h-[80vh] lg:h-[75vh] items-center mx-32 flex lg:mb-14">
           <img className="" src={logo} alt="insightx-logo" width={1500} height={182}/>
         </div>
         <div className="justify-center flex">
