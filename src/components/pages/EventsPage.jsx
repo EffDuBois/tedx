@@ -21,7 +21,7 @@ const EventsPage = () => {
         <img className="w-[95vw]" src={logo} alt="Theme Video" />
       </div> */}
       <div className=" flex flex-col">
-        <div className=" w-full lg:w-full items-center flex lg:mb-14">
+        <div className=" w-full lg:w-full items-center flex">
           {/* <img className="" src={logo} alt="insightx-logo" width={1500} height={182}/> */}
           <video className="" src={videobg} width={1700} height={1000} autoPlay muted loop poster={logobg}/>
         </div>
