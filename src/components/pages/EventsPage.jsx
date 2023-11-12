@@ -7,7 +7,8 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import PeopleTray from "../trays/PeopleTray";
 import Counter from "../counters/Counter";
 
-import logo from "../../resources/images/logos/insightx/logo-insightx-nobg.webp";
+import logobg from "../../resources/images/logos/insightx/logo-insightx-nobg.webp";
+import videobg from "../../resources/videos/insightx-revealvid-lowres.mp4"
 
 import sponsorImages from "../../resources/images/sponsors/getSponsorImages";
 import speakerImages from "../../resources/images/speakers/getSpeakerImages";
@@ -20,9 +21,9 @@ const EventsPage = () => {
         <img className="w-[95vw]" src={logo} alt="Theme Video" />
       </div> */}
       <div className=" flex flex-col">
-        <div className=" h-[80vh] lg:h-[75vh] items-center mx-32 flex lg:mb-14">
-          <img className="" src={logo} alt="insightx-logo" width={1500} height={182}/>
-          {/* <video src={video} width={1500} height={1000}/> */}
+        <div className=" h-[80vh] lg:w-full items-center flex lg:mb-14">
+          {/* <img className="" src={logo} alt="insightx-logo" width={1500} height={182}/> */}
+          <video className="" src={videobg} width={1700} height={1000} autoPlay muted loop poster={logobg}/>
         </div>
         <div className="justify-center flex">
           <Link to={"/register"}>
@@ -44,7 +45,8 @@ const EventsPage = () => {
         <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:my-12 lg:items-center">
           <div className="lg:order-1 lg:pb-20">
             <h1 className="text-left my-0 lg:text-8xl leading-1">
-              <span className="text-ted">INSIGHTX</span>
+              {/* <span className="text-ted">INSIGHTX</span> */}
+              <img src={logobg} alt="Insightx logo" width={640} height={100}/>
             </h1>
             in
             <Counter />
