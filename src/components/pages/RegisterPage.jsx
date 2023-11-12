@@ -39,12 +39,12 @@ const RegisterPage = () => {
   return (
     <div className="mx-gutter lg:mx-gutterbig my-5">
       <h3 className="text-center">
-        Limited Seats, Register Fast! <span className="text-ted "></span>
+        Early Bird Offer For You!<br/> Register Fast! <span className="text-ted "></span>
       </h3>
       <div className="bg-ted hover:bg-invert hover:text-invert max-w-fit px-5 py-3 m-auto my-10">
         <a
           href={
-            "https://docs.google.com/forms/d/1woMBHckOJqNbIuXqa2UiJD4Q_6M5EKs0cGco6IJm-fM/edit"
+            "https://forms.gle/p8khgTSU9Pov9EhHA"
           }
           rel="noreferrer"
           target="_blank"

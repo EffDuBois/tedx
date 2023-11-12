@@ -8,9 +8,11 @@ import PeopleTray from "../trays/PeopleTray";
 import Counter from "../counters/Counter";
 
 import logo from "../../resources/images/logos/insightx/logo-insightx-nobg.webp";
+import video from "../../resources/logo-video.mp4"
 
 import sponsorImages from "../../resources/images/sponsors/getSponsorImages";
 import speakerImages from "../../resources/images/speakers/getSpeakerImages";
+import { Link } from "react-router-dom";
 
 const EventsPage = () => {
   return (
@@ -20,10 +22,14 @@ const EventsPage = () => {
       </div> */}
       <div className=" flex flex-col">
         <div className=" h-[80vh] lg:h-[75vh] items-center mx-32 flex lg:mb-14">
-          <img className="" src={logo} alt="insightx-logo" width={1500} height={182}/>
+          {/* <img className="" src={logo} alt="insightx-logo" width={1500} height={182}/> */}
+          <video src={video} width={1500} height={1000}/>
         </div>
         <div className="justify-center flex">
-          <a
+          <Link to={"/register"}>
+          <u>Get Your Early Bird Tickets!</u>
+          </Link>
+          {/* <a
             href={
               "https://docs.google.com/forms/d/1woMBHckOJqNbIuXqa2UiJD4Q_6M5EKs0cGco6IJm-fM/edit"
             }
@@ -32,7 +38,7 @@ const EventsPage = () => {
             className="lg:m-5 lg:text-2xl "
           >
             <u>BUY TICKETS NOW!</u>
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="mx-gutter lg:mx-gutterbig my-12">
