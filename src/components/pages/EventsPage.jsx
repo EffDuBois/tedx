@@ -8,7 +8,6 @@ import PeopleTray from "../trays/PeopleTray";
 import Counter from "../counters/Counter";
 
 import logo from "../../resources/images/logos/insightx/logo-insightx-nobg.webp";
-import video from "../../resources/logo-video.mp4"
 
 import sponsorImages from "../../resources/images/sponsors/getSponsorImages";
 import speakerImages from "../../resources/images/speakers/getSpeakerImages";
@@ -22,8 +21,8 @@ const EventsPage = () => {
       </div> */}
       <div className=" flex flex-col">
         <div className=" h-[80vh] lg:h-[75vh] items-center mx-32 flex lg:mb-14">
-          {/* <img className="" src={logo} alt="insightx-logo" width={1500} height={182}/> */}
-          <video src={video} width={1500} height={1000}/>
+          <img className="" src={logo} alt="insightx-logo" width={1500} height={182}/>
+          {/* <video src={video} width={1500} height={1000}/> */}
         </div>
         <div className="justify-center flex">
           <Link to={"/register"}>
