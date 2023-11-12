@@ -10,7 +10,13 @@ const Socials = () => {
   return (
     <div className="bg-invert text-invert min-h-[35vh] px-[8vw] flex lg:flex-row justify-between flex-col">
       <div className="lg:py-[8vh] pt-[6vh]">
-        <img className="" width={300} height={107} src={logo_tedx} alt="tedxbitbangalore logo" />
+        <img
+          className=""
+          width={300}
+          height={107}
+          src={logo_tedx}
+          alt="tedxbitbangalore logo"
+        />
         <p className="text-center pt-6 lg:text-left text-m self-center font-normal [font-stretch:normal]">
           This independent TEDx event is operated under license from TED.
         </p>
@@ -19,6 +25,7 @@ const Socials = () => {
         <a
           target="blank"
           href="https://www.linkedin.com/company/tedxbitbangalore"
+          aria-label="our linkedin page link"
         >
           <FontAwesomeIcon
             className="mx-1 h-[3rem] hover:animate-bounce"
@@ -27,7 +34,11 @@ const Socials = () => {
             size="2xl"
           />
         </a>
-        <a target="blank" href="https://www.instagram.com/tedxbitbangalore/">
+        <a
+          target="blank"
+          href="https://www.instagram.com/tedxbitbangalore/"
+          aria-label="our instagram page link"
+        >
           <FontAwesomeIcon
             className="mx-1 h-[3rem] hover:animate-bounce"
             icon={faInstagram}
@@ -35,7 +46,11 @@ const Socials = () => {
             size="2xl"
           />
         </a>
-        <a target="blank" href="mailto:tedxbitbangalore5@gmail.com">
+        <a
+          target="blank"
+          href="mailto:tedxbitbangalore5@gmail.com"
+          aria-label="our email"
+        >
           <FontAwesomeIcon
             className="mx-1 h-[3rem] hover:animate-bounce"
             icon={faEnvelope}
