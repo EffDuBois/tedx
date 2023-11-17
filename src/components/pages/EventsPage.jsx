@@ -23,7 +23,7 @@ const EventsPage = () => {
       <div className=" flex flex-col">
         <div className=" w-full lg:w-full items-center flex">
           {/* <img className="" src={logo} alt="insightx-logo" width={1500} height={182}/> */}
-          <video className="" src={videobg} width={1700} height={1000} autoPlay muted loop poster={logobg}/>
+          <video className="max-md:hidden" src={videobg} width={1700} height={1000} autoPlay muted loop poster={logobg}/>
         </div>
         <div className="justify-center flex">
           <Link to={"/register"}>
