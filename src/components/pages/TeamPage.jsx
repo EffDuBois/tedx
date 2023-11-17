@@ -12,6 +12,7 @@ import designTeamImages from "../../resources/images/team/design/getImages";
 import contentTeamImages from "../../resources/images/team/content/getImages";
 import creativeTeamImages from "../../resources/images/team/creative/getImages";
 import marketingTeamImages from "../../resources/images/team/marketing/getImages";
+import photographyTeamImages from "../../resources/images/team/photography/getImages";
 
 import PersonCardDesc from "../cards/PersonCardDesc";
 import { Link } from "react-router-dom";
@@ -120,6 +121,17 @@ const TeamPage = () => {
         description={`As the wellspring that gives birth to the river, they are the headwaters to our event's flow. With the skill of painters, they create intricate brushstrokes on a blank canvas. They are the idea architects, problem solvers, and pioneers who stretch the boundaries of what can be achieved.
         Dedicated to their craft, they invest tireless effort in research, innovative idea exploration, concept development, prototyping, refinement, and the invaluable feedback loop. It is the magic of our creative team that gives each event its distinct pulse, weaving together the threads of imagination to create moments that linger in the memory, inspiring and illuminating.`}
         teamImages={creativeTeamImages}
+      />{" "}
+      <PersonCardDesc
+        hidden
+        heading={
+          <h2 className=" mb-3">
+            Photography<span className="text-ted lg:text-invert"></span>
+          </h2>
+        }
+        description={`As the wellspring that gives birth to the river, they are the headwaters to our event's flow. With the skill of painters, they create intricate brushstrokes on a blank canvas. They are the idea architects, problem solvers, and pioneers who stretch the boundaries of what can be achieved. Dedicated to their craft, they invest tireless effort in research, innovative idea exploration, concept development, prototyping, refinement, and the invaluable feedback loop. It is the magic of our creative team that gives each event its distinct pulse, weaving together the threads of imagination to create moments that linger in the memory, inspiring and illuminating.
+        `}
+        teamImages={photographyTeamImages}
       />{" "}
       <Link className="text-3xl my-20" to="/">
         Event -{`>`}

@@ -6,10 +6,12 @@ const PersonCardDesc = (props) => {
   return (
     <div className="lg:my-16 ">
       <div
-        className={`flex lg:overflow-hidden flex-col lg:flex-row items-center lg:items-stretch lg:items-start my-8 lg:my-0`}
+        className={`flex lg:overflow-hidden flex-col lg:flex-row items-center lg:items-stretch lg:items-start my-8 lg:my-0 `}
       >
         <PersonCard
-          className={`lg:h-[38vw] lg:w-[30vw] w-[90vw] h-[85vw] `}
+          className={`lg:h-[38vw] lg:w-[30vw] w-[90vw] h-[85vw] ${
+            props.hidden ? "hidden" : ""
+          }`}
           name={props.name}
           title={props.title}
           contact={props.contact}
