@@ -8,7 +8,7 @@ import PeopleTray from "../trays/PeopleTray";
 import Counter from "../counters/Counter";
 
 import logobg from "../../resources/images/logos/insightx/logo-insightx-nobg.webp";
-import videobg from "../../resources/videos/insightx-revealvid-lowres.mp4"
+import videobg from "../../resources/videos/insightx-scaled-down.mp4"
 
 import sponsorImages from "../../resources/images/sponsors/getSponsorImages";
 import speakerImages from "../../resources/images/speakers/getSpeakerImages";
