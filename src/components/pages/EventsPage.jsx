@@ -8,7 +8,7 @@ import PeopleTray from "../trays/PeopleTray";
 import Counter from "../counters/Counter";
 
 import logobg from "../../resources/images/logos/insightx/logo-insightx-nobg.webp";
-import videobg from "../../resources/videos/insightx-scaled-down.mp4"
+import videobg from "../../resources/videos/insightx-scaled-down.mp4";
 
 import sponsorImages from "../../resources/images/sponsors/getSponsorImages";
 import speakerImages from "../../resources/images/speakers/getSpeakerImages";
@@ -23,11 +23,33 @@ const EventsPage = () => {
       <div className=" flex flex-col">
         <div className=" w-full lg:w-full items-center flex">
           {/* <img className="" src={logo} alt="insightx-logo" width={1500} height={182}/> */}
-          <video className="" src={videobg} width={1700} height={1000} autoPlay muted loop poster={logobg}/>
+          <video
+            className=""
+            src={videobg}
+            width={1700}
+            height={1000}
+            autoPlay
+            muted
+            loop
+            poster={
+              <div className=" lg:border-b-4 flex flex-col">
+                <div className=" h-[80vh] lg:h-[75vh] items-center mx-4 lg:mx-32 flex lg:mb-14">
+                  <img
+                    className=""
+                    alt="insightx logo"
+                    width={1500}
+                    height={182}
+                  />
+                </div>
+              </div>
+            }
+          >
+            <source src={videobg} />
+          </video>
         </div>
         <div className="justify-center flex">
           <Link to={"/register"}>
-          <u>Buy Tickets Now!</u>
+            <u>Buy Tickets Now!</u>
           </Link>
           {/* <a
             href={
@@ -46,7 +68,13 @@ const EventsPage = () => {
           <div className="lg:order-1 lg:pb-20">
             <h1 className="text-left my-0 lg:text-8xl leading-1">
               {/* <span className="text-ted">INSIGHTX</span> */}
-              <img src={logobg} alt="Insightx logo" className="w-[80vw]" width={640} height={100}/>
+              <img
+                src={logobg}
+                alt="Insightx logo"
+                className="w-[80vw]"
+                width={640}
+                height={100}
+              />
             </h1>
             in
             <Counter />
@@ -107,7 +135,15 @@ const EventsPage = () => {
           </h1>
           <div className="grid grid-cols-2 gap-x-10 gap-y-20 place-content-center">
             {sponsorImages.map((img, index) => {
-              return <img width={300} height={300} key={index} src={img.path} alt={img.name} />;
+              return (
+                <img
+                  width={300}
+                  height={300}
+                  key={index}
+                  src={img.path}
+                  alt={img.name}
+                />
+              );
             })}
           </div>
         </div>
