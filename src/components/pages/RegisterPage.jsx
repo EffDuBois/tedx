@@ -39,7 +39,7 @@ const RegisterPage = () => {
   return (
     <div className="mx-gutter lg:mx-gutterbig my-5">
       <h3 className="text-center">
-        Early Bird Offer For You!<br/> Register Fast! <span className="text-ted "></span>
+        Register Now! <span className="text-ted "></span>
       </h3>
       <div className="bg-ted hover:bg-invert hover:text-invert max-w-fit px-5 py-3 m-auto my-10">
         <a

@@ -27,7 +27,7 @@ const EventsPage = () => {
         </div>
         <div className="justify-center flex">
           <Link to={"/register"}>
-          <u>Get Your Early Bird Tickets!</u>
+          <u>Buy Tickets Now!</u>
           </Link>
           {/* <a
             href={
