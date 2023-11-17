@@ -14,6 +14,7 @@ import creativeTeamImages from "../../resources/images/team/creative/getImages";
 import marketingTeamImages from "../../resources/images/team/marketing/getImages";
 
 import PersonCardDesc from "../cards/PersonCardDesc";
+import { Link } from "react-router-dom";
 
 const TeamPage = () => {
   return (
@@ -34,7 +35,6 @@ const TeamPage = () => {
           description="Dr. Aswath M U is an esteemed academician and a dedicated professional who oversees our club, TEDxBITBangalore, in his role as the faculty coordinator. With a passion for education and a commitment to nurturing students' talents, Dr. Ashwath plays a pivotal role in the success and growth of our club. As a principal, Dr. Ashwath possesses exceptional leadership qualities, known for his ability to inspire and motivate students to achieve their full potential. Under his guidance, the club has flourished, providing a platform for students to become the best versions of themselves and for various speakers to share ideas and innovations. With his profound knowledge, exceptional leadership skills, and unwavering support, he continues to inspire and guide students, leaving a lasting positive impact on their journeys."
         />
       </div>
-
       <h1 className="text-left lg:text-8xl">
         Our <span className="text-ted ">Team</span>
       </h1>
@@ -50,7 +50,6 @@ const TeamPage = () => {
         }
         description="The creative architect behind our transformative gatherings. The driving force that is responsible for capturing the spirit of TED in the event by sparking community connections and inspiring ideas that change perspectives. He is the guiding hand, uniting impassioned individuals to create a powerful, unforgettable event. In essence, he is the catalyst for innovation and positive change."
       />
-
       <PersonCardDesc
         name="Ashutosh Tandon"
         title="Marketing head"
@@ -64,7 +63,6 @@ const TeamPage = () => {
         description="The marketing team plays a pivotal role in expanding the reach of our creations to a wider audience. Under the leadership of the head , they function as an attractive force, much like a beautiful flower that draws in a friendly crowd with its appealing nectar. Through their carefully crafted campaigns, they skillfully orchestrate engagement, directing our audience to the most compelling aspects of our event. Acting as a persuasive link between our visions and the outside world, they infuse our creations with energy and enthusiasm, making them engaging and impactful."
         teamImages={marketingTeamImages}
       />
-
       <PersonCardDesc
         name="Nikita Tenjarla"
         title="Content Head"
@@ -96,7 +94,6 @@ const TeamPage = () => {
         `}
         teamImages={designTeamImages}
       />
-
       <PersonCardDesc
         name="Siri Prakash"
         title="Curation Head"
@@ -123,7 +120,10 @@ const TeamPage = () => {
         description={`As the wellspring that gives birth to the river, they are the headwaters to our event's flow. With the skill of painters, they create intricate brushstrokes on a blank canvas. They are the idea architects, problem solvers, and pioneers who stretch the boundaries of what can be achieved.
         Dedicated to their craft, they invest tireless effort in research, innovative idea exploration, concept development, prototyping, refinement, and the invaluable feedback loop. It is the magic of our creative team that gives each event its distinct pulse, weaving together the threads of imagination to create moments that linger in the memory, inspiring and illuminating.`}
         teamImages={creativeTeamImages}
-      />
+      />{" "}
+      <Link className="text-3xl my-20" to="/">
+        Event -{`>`}
+      </Link>
     </div>
   );
 };

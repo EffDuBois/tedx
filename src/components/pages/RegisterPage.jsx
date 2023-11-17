@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const RegisterPage = () => {
   const registration = [
@@ -43,9 +44,7 @@ const RegisterPage = () => {
       </h3>
       <div className="bg-ted hover:bg-invert hover:text-invert max-w-fit px-5 py-3 m-auto my-10">
         <a
-          href={
-            "https://forms.gle/p8khgTSU9Pov9EhHA"
-          }
+          href={"https://forms.gle/p8khgTSU9Pov9EhHA"}
           rel="noreferrer"
           target="_blank"
           className="text-2xl"
@@ -88,6 +87,9 @@ const RegisterPage = () => {
           </ol>
         </div>
       </div>
+      <Link className="text-3xl my-20" to="/">
+        Event -{`>`}
+      </Link>
     </div>
   );
 };

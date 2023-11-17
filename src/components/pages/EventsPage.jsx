@@ -66,7 +66,7 @@ const EventsPage = () => {
       <div className="mx-gutter lg:mx-gutterbig my-12">
         <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:my-12 lg:items-center">
           <div className="lg:order-1 lg:pb-20">
-            <h1 className="text-left my-0 lg:text-8xl leading-1">
+            <h2 className="text-left my-0 lg:text-8xl leading-1">
               {/* <span className="text-ted">INSIGHTX</span> */}
               <img
                 src={logobg}
@@ -75,7 +75,7 @@ const EventsPage = () => {
                 width={640}
                 height={100}
               />
-            </h1>
+            </h2>
             in
             <Counter />
           </div>
@@ -101,10 +101,10 @@ const EventsPage = () => {
 
         {/* Speakers */}
         <PeopleTray imageArray={speakerImages} firstText="" secondText="">
-          <h1 className="text-center text-ted">
+          <h2 className="text-center text-ted">
             <span className="text-4xls lg:text-4xl text-main">The</span>
             <br /> Speakers
-          </h1>
+          </h2>
         </PeopleTray>
         <div className="flex flex-col lg:flex-row w-full justify-evenly">
           <div className="flex flex-col content-center item-center m-3">

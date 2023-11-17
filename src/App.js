@@ -13,9 +13,9 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Navigate to={{ pathname: "/event" }} />} />
+        <Route path="/" element={<EventsPage />} />
         <Route path="/home" element={<HomePage />} />
-        <Route path="/event" element={<EventsPage />} />
+        <Route path="/event" element={<Navigate to={{ pathname: "/" }} />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/register" element={<RegisterPage />} />

@@ -55,10 +55,7 @@ const Navbar = () => {
             <NavbarButton to="/home">Home</NavbarButton>
             <NavbarButton to="/event">Event</NavbarButton>
             <NavbarButton to="/team">Team</NavbarButton>
-            <NavbarButton to="/about">
-              About <br />
-              Us
-            </NavbarButton>
+            <NavbarButton to="/about">About</NavbarButton>
             <NavbarButton to="/register">Register</NavbarButton>
           </div>
         </div>

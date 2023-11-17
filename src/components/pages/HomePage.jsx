@@ -1,13 +1,20 @@
 import React from "react";
 
 import logobg from "../../resources/images/logos/insightx/logo-insightx-nobg.webp";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
     <div className="">
       <div className=" lg:border-b-4 border-white flex flex-col">
         <div className=" h-[80vh] lg:h-[75vh] items-center mx-4 lg:mx-32 flex lg:mb-14">
-          <img className="" src={logobg} alt="insightx logo" width={1500} height={182}/>
+          <img
+            className=""
+            src={logobg}
+            alt="insightx logo"
+            width={1500}
+            height={182}
+          />
         </div>
         {/* <p className="text-center text-normal [font-stretch:normal]">
           Scroll
@@ -75,6 +82,9 @@ const HomePage = () => {
             alt="pic of bangalore city"
           />
         </div> */}
+        <Link className="text-3xl my-20" to="/">
+          Event -{`>`}
+        </Link>
       </div>
     </div>
   );
