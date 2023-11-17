@@ -6,7 +6,7 @@ const PeopleTray = (props) => {
     <div>
       {props.children}
       <div className="my-10 flex items-start [border-collapse:collapse] flex-wrap justify-center w-[90vw] m-auto">
-        <div className="lg:border-r-4  lg:mt-[16vh]">
+        <div className="  lg:mt-[16vh]">
           {props.imageArray.map((img, index) =>
             index % 3 === 2 ? (
               <div className={`lg:border-t-4`}>
@@ -23,7 +23,7 @@ const PeopleTray = (props) => {
             )
           )}
         </div>
-        <div className="lg:border-r-4">
+        <div className="lg:border-r-4 lg:border-l-4">
           {props.imageArray.map((img, index) =>
             index % 3 === 0 ? (
               <div

@@ -22,7 +22,7 @@ const PersonCard = (props) => {
         /> */}
           <div className=" h-full flex flex-col justify-center items-center">
             <p className="font-bold lg:text-3xl text-3xls text-center">{props.name}</p>
-            <p className="font-bold text-center">{props.title}</p>
+            <p className="font-bold text-center max-w-xs">{props.title}</p>
             <div className="h-3 w-2/3 bg-red-500 shadow" />
             <p className="font-bold text-center">{props.contact}</p>
           </div>

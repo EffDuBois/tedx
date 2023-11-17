@@ -6,7 +6,7 @@ let imagePaths = getImagePaths(directory);
 let speakerImages = [];
 imagePaths.map((path) =>
 speakerImages.push({
-    name: path.match(/(.*)@/)[1].replaceAll(/_/g, " "),
+    name: path.match(/(.*)@/)[1].replaceAll(/\d/g,"").replaceAll(/_/g, " "),
     title: path
       .match(/@(.*)/)[1]
       .replaceAll(/_/g, " ")
