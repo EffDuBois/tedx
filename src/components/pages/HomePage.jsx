@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const HomePage = () => {
   return (
     <div className="">
-      <div className=" lg:border-b-4 border-white flex flex-col">
+      <section className=" lg:border-b-4 border-white flex flex-col">
         <div className=" h-[80vh] lg:h-[75vh] items-center mx-4 lg:mx-32 flex lg:mb-14">
           <img
             className=""
@@ -24,10 +24,10 @@ const HomePage = () => {
           icon={faChevronDown}
           style={{ color: "white" }}
         /> */}
-      </div>
+      </section>
 
       <div className="mt-20 ml-gutter mr-[6vw] lg:mx-gutterbig">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:items-center my-12">
+        <section className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:items-center my-12">
           <h1 className="lg:text-left lg:my-0 lg:order-1 lg:mb-16">
             What <span className="lg:text-5xl">is</span>
             <br />
@@ -52,8 +52,8 @@ const HomePage = () => {
             <span className="text-ted">TEDx </span> events, including ours, are
             self-organized.
           </p>
-        </div>
-        <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] my-12">
+        </section>
+        <section className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] my-12">
           <h1 className="lg:text-left lg:my-0 lg:order-1 ">
             About
             <br />
@@ -74,7 +74,7 @@ const HomePage = () => {
             of young visionaries dedicated to bringing together{" "}
             <i>ideas worth spreading</i>.
           </p>
-        </div>
+        </section>
         {/* <div className=" my-20 ">
           <img
             className="hover:opacity-50 w-full"

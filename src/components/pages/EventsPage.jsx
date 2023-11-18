@@ -20,7 +20,7 @@ const EventsPage = () => {
       {/* <div className="lg:h-[75vh] h-[10vh] mt-[8vh] items-center flex">
         <img className="w-[95vw]" src={logo} alt="Theme Video" />
       </div> */}
-      <div className=" flex flex-col">
+      <section className=" flex flex-col">
         <div className=" w-full lg:w-full items-center flex">
           {/* <img className="" src={logo} alt="insightx-logo" width={1500} height={182}/> */}
           <video
@@ -62,8 +62,8 @@ const EventsPage = () => {
             <u>BUY TICKETS NOW!</u>
           </a> */}
         </div>
-      </div>
-      <div className="mx-gutter lg:mx-gutterbig my-12">
+      </section>
+      <section className="mx-gutter lg:mx-gutterbig my-12">
         <div className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:my-12 lg:items-center">
           <div className="lg:order-1 lg:pb-20">
             <h2 className="text-left my-0 lg:text-8xl leading-1">
@@ -92,21 +92,24 @@ const EventsPage = () => {
           </p>
         </div>
         <div className="h-52 flex justify-center item-center flex flex-col">
-          <h2 className="text-center lg:text-5xl text-3xls">
+          <p className="text-center lg:text-5xl text-3xls">
             Find us <span className="text-ted">At</span>
-          </h2>
+          </p>
           <p className="text-center"> Bangalore Institute of Technology,</p>
           <p className="text-center">KR Road, VV Puram, Bangalore - 560094</p>
         </div>
 
-        {/* Speakers */}
-        <PeopleTray imageArray={speakerImages} firstText="" secondText="">
-          <h2 className="text-center text-ted">
-            <span className="text-4xls lg:text-4xl text-main">The</span>
-            <br /> Speakers
-          </h2>
-        </PeopleTray>
-        <div className="flex flex-col lg:flex-row w-full justify-evenly">
+        {/* Speaker Section */}
+        <section>
+          <PeopleTray imageArray={speakerImages} firstText="" secondText="">
+            <h2 className="text-center text-ted">
+              <span className="text-4xls lg:text-4xl text-main">The</span>
+              <br /> Speakers
+            </h2>
+          </PeopleTray>
+        </section>
+
+        <section className="flex flex-col lg:flex-row w-full justify-evenly">
           <div className="flex flex-col content-center item-center m-3">
             <FontAwesomeIcon
               icon={faClock}
@@ -127,9 +130,9 @@ const EventsPage = () => {
             <p className="text-center"> Bangalore Institute of Technology,</p>
             <p className="text-center">KR Road, VV Puram, Bangalore - 560094</p>
           </div>
-        </div>
+        </section>
 
-        <div className=" my-10">
+        {/* <div className=" my-10">
           <h1>
             Our <span className="text-ted ">Sponsors</span>
           </h1>
@@ -146,8 +149,32 @@ const EventsPage = () => {
               );
             })}
           </div>
+        </div> */}
+      </section>
+      {/* Speaker Section End*/}
+
+      {/* Sponsor Section */}
+      <section class="w-full my-10">
+        <h1 className="text-center">
+          Our <span className="text-ted ">Sponsors</span>
+        </h1>
+        <div className="slider p-0">
+          <div className="slide-track py-10 flex h-[35vh]">
+            {sponsorImages.map((img, index) => {
+              return (
+                <img className="" key={index} src={img.path} alt={img.name} />
+              );
+            })}
+            <div className="ml-[30vw]" />
+            {sponsorImages.map((img, index) => {
+              return (
+                <img className="" key={index} src={img.path} alt={img.name} />
+              );
+            })}
+          </div>
         </div>
-      </div>
+      </section>
+      {/* Sponsor Section End*/}
     </div>
   );
 };

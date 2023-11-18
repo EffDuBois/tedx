@@ -39,54 +39,59 @@ const RegisterPage = () => {
   ];
   return (
     <div className="mx-gutter lg:mx-gutterbig my-5">
-      <h3 className="text-center">
-        Register Now! <span className="text-ted "></span>
-      </h3>
-      <div className="bg-ted hover:bg-invert hover:text-invert max-w-fit px-5 py-3 m-auto my-10">
-        <a
-          href={"https://forms.gle/p8khgTSU9Pov9EhHA"}
-          rel="noreferrer"
-          target="_blank"
-          className="text-2xl"
-        >
-          <h5 className="lg:text-5xl">Registration</h5>
-        </a>
-      </div>
-
-      <p className="text-normal">
-        Before registering, make sure to read and comply to the following rules
-        and guidelines regarding the event:
-      </p>
-      <div className="grid lg:grid-cols-2 gap-x-14">
-        <div>
-          <h3 className="my-5 max-md:text-center">Registration</h3>
-          <ol>
-            {registration.map((item) => (
-              <li>{item}</li>
-            ))}
-          </ol>
-          <h3 className="my-5 max-md:text-center">VENUE</h3>
-          <ol>
-            {venue.map((item) => (
-              <li>{item}</li>
-            ))}
-          </ol>
+      <section>
+        {" "}
+        <h3 className="text-center">
+          Register Now! <span className="text-ted "></span>
+        </h3>
+        <div className="bg-ted hover:bg-invert hover:text-invert max-w-fit px-5 py-3 m-auto my-10">
+          <a
+            href={"https://forms.gle/p8khgTSU9Pov9EhHA"}
+            rel="noreferrer"
+            target="_blank"
+            className="text-2xl"
+          >
+            <h5 className="lg:text-5xl">Registration</h5>
+          </a>
         </div>
-        <div className="">
-          <h3 className="my-5 max-md:text-center">Socilictation</h3>
-          <ol>
-            {solicitation.map((item) => (
-              <li>{item}</li>
-            ))}
-          </ol>
-          <h3 className="my-5 max-md:text-center">Socialize</h3>
-          <ol>
-            {socialize.map((item) => (
-              <li>{item}</li>
-            ))}
-          </ol>
+      </section>
+      <section>
+        {" "}
+        <p className="text-normal">
+          Before registering, make sure to read and comply to the following
+          rules and guidelines regarding the event:
+        </p>
+        <div className="grid lg:grid-cols-2 gap-x-14">
+          <div>
+            <h3 className="my-5 max-md:text-center">Registration</h3>
+            <ol>
+              {registration.map((item) => (
+                <li>{item}</li>
+              ))}
+            </ol>
+            <h3 className="my-5 max-md:text-center">VENUE</h3>
+            <ol>
+              {venue.map((item) => (
+                <li>{item}</li>
+              ))}
+            </ol>
+          </div>
+          <div className="">
+            <h3 className="my-5 max-md:text-center">Socilictation</h3>
+            <ol>
+              {solicitation.map((item) => (
+                <li>{item}</li>
+              ))}
+            </ol>
+            <h3 className="my-5 max-md:text-center">Socialize</h3>
+            <ol>
+              {socialize.map((item) => (
+                <li>{item}</li>
+              ))}
+            </ol>
+          </div>
         </div>
-      </div>
+      </section>
       <Link className="text-3xl my-20 underline" to="/">
         Event -{`>`}
       </Link>

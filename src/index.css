@@ -81,6 +81,52 @@
     transition: 0.2s;
   }
 
+  /* Rotating X bg end */
+
+  /* Sponsors slideshow */
+  @keyframes scroll {
+    0% {
+      transform: translateX(-111.4vw);
+    }
+    100% {
+      transform: translateX(0vw);
+    }
+  }
+  .slider {
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+  }
+  .slider::before,
+  .slider::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+  }
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  .slider .slide-track {
+    animation: scroll 10s linear infinite;
+  }
+  .slider {
+    /* width: 20%; */
+    padding: 0 4%;
+  }
+
+  @media (max-width: 480px) {
+    .slider{
+      padding: 0 3.5% !important;
+    }
+  }
+  /* Sponsors slideshow end */
+
   /* Glowing border */
   .border-glow {
     border: 1px white;
@@ -96,8 +142,9 @@
       red 0px -10px 15px -8px inset, white 0px 6px 1px -6px inset,
       white 0px 4px 3px -6px inset;
   }
+  /* Glowing border end*/
 
-  /* glowing text */
+  /* glowing text end*/
   .glow {
     color: white;
     font-weight: bold;
@@ -106,6 +153,7 @@
       -2px 2px 20px rgba(255, 0, 0, 0.5), 2px -2px 20px rgba(255, 0, 0, 0.5),
       -2px -2px 20px rgba(255, 0, 0, 0.5), 0px 0px 5px white;
   }
+  /* glowing text end*/
 
   /* glowing button */
   .glow-button {
@@ -158,6 +206,8 @@
   }
 }
 
+/* glowing button end*/
+
 /* Fonts */
 @font-face {
   font-family: acumin-pro;
@@ -207,6 +257,7 @@
     url(./resources/fonts/acumin-pro-wide-black-webfont.woff) format("woff");
   font-display: swap;
 }
+/* Main Font */
 @font-face {
   font-family: acumin-pro;
   font-weight: 900;
@@ -217,6 +268,7 @@
       format("woff");
   font-display: swap;
 }
+/* Fonts end*/
 
 body {
   margin: 0;
