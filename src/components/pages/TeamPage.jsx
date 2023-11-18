@@ -133,9 +133,11 @@ const TeamPage = () => {
         `}
         teamImages={photographyTeamImages}
       />{" "}
-      <Link className="text-3xl my-20 underline" to="/">
-        Event -{`>`}
-      </Link>
+      <div className="mb-14">
+        <Link className="text-3xl  underline" to="/">
+          Event -{`>`}
+        </Link>
+      </div>
     </div>
   );
 };

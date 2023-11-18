@@ -39,9 +39,11 @@ const SpeakersPage = () => {
           <p className="text-center">KR Road, VV Puram, Bangalore - 560094</p>
         </div>
       </div>
-      <Link className="text-3xl my-20 underline" to="/">
-        Event -{`>`}
-      </Link>
+      <div className="mb-14">
+        <Link className="text-3xl  underline" to="/">
+          Event -{`>`}
+        </Link>
+      </div>
     </div>
   );
 };

@@ -92,9 +92,11 @@ const RegisterPage = () => {
           </div>
         </div>
       </section>
-      <Link className="text-3xl my-20 underline" to="/">
-        Event -{`>`}
-      </Link>
+      <div className="my-14">
+        <Link className="text-3xl  underline" to="/">
+          Event -{`>`}
+        </Link>
+      </div>
     </div>
   );
 };
