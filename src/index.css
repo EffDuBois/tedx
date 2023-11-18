@@ -86,7 +86,7 @@
   /* Sponsors slideshow */
   @keyframes scroll {
     0% {
-      transform: translateX(-111.4vw);
+      transform: translateX(-98vw);
     }
     100% {
       transform: translateX(0vw);

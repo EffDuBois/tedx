@@ -162,13 +162,27 @@ const EventsPage = () => {
           <div className="slide-track py-10 flex h-[35vh]">
             {sponsorImages.map((img, index) => {
               return (
-                <img className="" key={index} src={img.path} alt={img.name} />
+                  <img
+                    className="w-full"
+                    width={480}
+                    height={200}
+                    key={index}
+                    src={img.path}
+                    alt={img.name}
+                  />
               );
             })}
             <div className="ml-[30vw]" />
             {sponsorImages.map((img, index) => {
               return (
-                <img className="" key={index} src={img.path} alt={img.name} />
+                  <img
+                    className="w-full"
+                    width={480}
+                    height={200}
+                    key={index}
+                    src={img.path}
+                    alt={img.name}
+                  />
               );
             })}
           </div>
