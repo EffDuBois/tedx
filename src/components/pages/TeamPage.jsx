@@ -4,7 +4,6 @@ import imgPrincipal from "../../resources/images/team/core/principal.webp";
 import imgOrganiser from "../../resources/images/team/core/Shivang_Jha@Organiser.webp";
 import imgMarketing from "../../resources/images/team/core/Ashutosh_Tandon@Head_Of_Marketing.webp";
 import imgContent from "../../resources/images/team/core/Nikita_Tenjerla@Head_Of_Content.webp";
-import imgDesign from "../../resources/images/team/core/Ashish_A_Ankam@Head_Of_Design_and_Technical_Team.webp";
 import imgCuration from "../../resources/images/team/core/Siri_Prakash@Head_Of_Curation.webp";
 import imgCreative from "../../resources/images/team/core/Harini_Giridhar@Head_Of_Creative.webp";
 
@@ -79,10 +78,7 @@ const TeamPage = () => {
         teamImages={contentTeamImages}
       />
       <PersonCardDesc
-        name="Ashish A Ankam"
-        title=" Head of Design"
-        contact="+91 63617 15169"
-        image={imgDesign}
+      hidden
         heading={
           <h2 className=" mb-3">
             <span className="text-ted lg:text-invert">Design & Technical </span>
