@@ -86,7 +86,7 @@
   /* Sponsors slideshow */
   @keyframes scroll {
     0% {
-      transform: translateX(-98vw);
+      transform: translateX(-155vw);
     }
     100% {
       transform: translateX(0vw);
@@ -121,8 +121,19 @@
   }
 
   @media (max-width: 480px) {
-    .slider{
+    .slider {
       padding: 0 3.5% !important;
+    }
+    @keyframes scroll {
+      0% {
+        transform: translateX(-310vw);
+      }
+      100% {
+        transform: translateX(0vw);
+      }
+    }
+    .slider .slide-track {
+      animation: scroll 8s linear infinite;
     }
   }
   /* Sponsors slideshow end */

@@ -53,12 +53,12 @@ const TeamPage = () => {
       />
       <PersonCardDesc
         name="Ashutosh Tandon"
-        title="Marketing head"
+        title="Head of Marketing"
         contact="+91 93363 70940"
         image={imgMarketing}
         heading={
           <h2 className=" mb-3">
-            Head of <span className="text-ted lg:text-invert">Marketing</span>
+            <span className="text-ted lg:text-invert">Marketing </span>Team
           </h2>
         }
         description="The marketing team plays a pivotal role in expanding the reach of our creations to a wider audience. Under the leadership of the head , they function as an attractive force, much like a beautiful flower that draws in a friendly crowd with its appealing nectar. Through their carefully crafted campaigns, they skillfully orchestrate engagement, directing our audience to the most compelling aspects of our event. Acting as a persuasive link between our visions and the outside world, they infuse our creations with energy and enthusiasm, making them engaging and impactful."
@@ -66,12 +66,12 @@ const TeamPage = () => {
       />
       <PersonCardDesc
         name="Nikita Tenjarla"
-        title="Content Head"
+        title="Head of Content "
         contact="+91 84969 22977"
         image={imgContent}
         heading={
           <h2 className=" mb-3">
-            Head of <span className="text-ted lg:text-invert">Content</span>
+            <span className="text-ted lg:text-invert">Content </span>Team
           </h2>
         }
         description={`Under the adept leadership of the Content Head, the TEDx BIT Bangalore Content Team is a dedicated group crafting compelling content for TEDx events. They create thought-provoking material, pen insightful articles for the "TEDlet" newsletter, and contribute to TEDx magazines. Their skills also include crafting engaging snippets for ads and supporting marketing pitches, all in the spirit of collaboration and organization, contributing to TEDx BIT Bangalore's impactful experiences.
@@ -80,15 +80,13 @@ const TeamPage = () => {
       />
       <PersonCardDesc
         name="Ashish A Ankam"
-        title="Design Head"
+        title=" Head of Design"
         contact="+91 63617 15169"
         image={imgDesign}
         heading={
           <h2 className=" mb-3">
-            Head of{" "}
-            <span className="text-ted lg:text-invert">
-              Design and Technical
-            </span>
+            <span className="text-ted lg:text-invert">Design & Technical </span>
+            Team
           </h2>
         }
         description={`A team of prolifics, who breathe life into conceptualisations, musings and visions. This cadre of designers crafts the entirety of the social media sites, posters, and event backdrops. Guiding this team with fervor, artistry and ingenuity is the head. In harmonious conjunction with the sub-head, the team strives to immortalize ideas.They bear the responsibility of fashioning a one-of-a-kind atmosphere, a unique touch woven into every detail of the event materials and the very essence of the venue.
@@ -97,12 +95,12 @@ const TeamPage = () => {
       />
       <PersonCardDesc
         name="Siri Prakash"
-        title="Curation Head"
+        title="Head of Curation "
         contact="+91 93363 70940"
         image={imgCuration}
         heading={
           <h2 className=" mb-3">
-            Head of <span className="text-ted lg:text-invert">Curation</span>
+            <span className="text-ted lg:text-invert">Curation </span>Team
           </h2>
         }
         description={`The visionary force behind our extraordinary events. Their mission? To seek, select, and cultivate the most compelling ideas, bringing them to our stage to inspire and transform the world, headed by a resilient and visionary head who holds pivotal role in shaping the essence and impact of our event. These dedicated individuals are the gatekeepers of innovation, tirelessly working to curate a line-up that reflects the very essence of "Ideas Worth Spreading.”
@@ -110,12 +108,12 @@ const TeamPage = () => {
       />
       <PersonCardDesc
         name="Harini Giridhar"
-        title="Creative Head"
+        title="Head of Creative"
         contact="+91 74068 98300"
         image={imgCreative}
         heading={
           <h2 className=" mb-3">
-            Head of <span className="text-ted lg:text-invert">Creative </span>
+            <span className="text-ted lg:text-invert">Creative </span>Team
           </h2>
         }
         description={`As the wellspring that gives birth to the river, they are the headwaters to our event's flow. With the skill of painters, they create intricate brushstrokes on a blank canvas. They are the idea architects, problem solvers, and pioneers who stretch the boundaries of what can be achieved.
@@ -126,13 +124,13 @@ const TeamPage = () => {
         hidden
         heading={
           <h2 className=" mb-3">
-            Photography<span className="text-ted lg:text-invert"></span>
+            <span className="text-ted lg:text-invert">Photography</span> Team
           </h2>
         }
         description={`As the wellspring that gives birth to the river, they are the headwaters to our event's flow. With the skill of painters, they create intricate brushstrokes on a blank canvas. They are the idea architects, problem solvers, and pioneers who stretch the boundaries of what can be achieved. Dedicated to their craft, they invest tireless effort in research, innovative idea exploration, concept development, prototyping, refinement, and the invaluable feedback loop. It is the magic of our creative team that gives each event its distinct pulse, weaving together the threads of imagination to create moments that linger in the memory, inspiring and illuminating.
         `}
         teamImages={photographyTeamImages}
-      />{" "}
+      />
       <div className="mb-14">
         <Link className="text-3xl  underline" to="/">
           Event -{`>`}
