@@ -44,7 +44,7 @@ const RegisterPage = () => {
         <h3 className="text-center">
           Register Now! <span className="text-ted "></span>
         </h3>
-        <div className="bg-ted hover:bg-invert hover:text-invert max-w-fit px-5 py-3 m-auto my-10">
+        {/* <div className="bg-ted hover:bg-invert hover:text-invert max-w-fit px-5 py-3 m-auto my-10">
           <a
             href={"https://forms.gle/p8khgTSU9Pov9EhHA"}
             rel="noreferrer"
@@ -53,6 +53,9 @@ const RegisterPage = () => {
           >
             <h5 className="lg:text-5xl">Registration</h5>
           </a>
+        </div> */}
+        <div className="bg-slate-600 max-w-fit px-5 py-3 m-auto my-10">
+          <h5 className="lg:text-5xl">Registration Closed</h5>
         </div>
       </section>
       <section>
