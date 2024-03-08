@@ -1,14 +1,22 @@
 import React from "react";
-import PersonCard from "./PersonCardFolding";
+import PersonCardFolding from "./PersonCardFolding";
 import TeamTray from "../trays/TeamTray";
-
+//uses PersonCard and adds more description on it. Adds TeamTray to it
 const PersonCardDesc = (props) => {
+  // //Takes arguments:
+  // name=Name of person, 
+  // title=designation of person, 
+  // contact=phone no/email, 
+  // image=imgobject, 
+  // heading=title of the card, 
+  // description=description of the person, 
+  // teamImages=array of images of the team
   return (
     <div className="lg:my-16 ">
       <div
         className={`flex lg:overflow-hidden flex-col lg:flex-row items-center lg:items-stretch lg:items-start my-8 lg:my-0 `}
       >
-        <PersonCard
+        <PersonCardFolding
           className={`lg:h-[38vw] lg:w-[30vw] w-[90vw] h-[85vw] ${
             props.hidden ? "hidden" : ""
           }`}

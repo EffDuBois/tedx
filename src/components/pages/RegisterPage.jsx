@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const RegisterPage = () => {
+  //Content Array
   const registration = [
     "By registering and making a payment you agree that all details provided are accurate. Any discrepancy may result in cancellation of registration.",
     "By registering and making a payment you agree that all details provided are accurate. Any discrepancy may result in cancellation of registration.",
@@ -95,11 +95,6 @@ const RegisterPage = () => {
           </div>
         </div>
       </section>
-      <div className="my-14">
-        <Link className="text-3xl  underline" to="/">
-          Event -{`>`}
-        </Link>
-      </div>
     </div>
   );
 };

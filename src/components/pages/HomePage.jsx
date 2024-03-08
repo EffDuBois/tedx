@@ -1,11 +1,11 @@
 import React from "react";
-
+//images
 import logobg from "../../resources/images/logos/insightx/logo-insightx-nobg.webp";
-import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
     <div className="">
+      {/* Banner Start */}
       <section className=" lg:border-b-4 border-white flex flex-col">
         <div className=" h-[80vh] lg:h-[75vh] items-center mx-4 lg:mx-32 flex lg:mb-14">
           <img
@@ -16,6 +16,7 @@ const HomePage = () => {
             height={182}
           />
         </div>
+
         {/* <p className="text-center text-normal [font-stretch:normal]">
           Scroll
         </p> */}
@@ -25,8 +26,11 @@ const HomePage = () => {
           style={{ color: "white" }}
         /> */}
       </section>
+      {/* Banner End */}
 
+      {/*Content Start  */}
       <div className="mt-20 ml-gutter mr-[6vw] lg:mx-gutterbig">
+        {/* What is TEDX Start */}
         <section className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] lg:items-center my-12">
           <h1 className="lg:text-left lg:my-0 lg:order-1 lg:mb-16">
             What <span className="lg:text-5xl">is</span>
@@ -53,6 +57,8 @@ const HomePage = () => {
             self-organized.
           </p>
         </section>
+        {/* What is TEDX End */}
+        {/* About Start */}
         <section className="lg:grid lg:grid-cols-2 lg:gap-x-[5vw] my-12">
           <h1 className="lg:text-left lg:my-0 lg:order-1 ">
             About
@@ -75,6 +81,8 @@ const HomePage = () => {
             <i>ideas worth spreading</i>.
           </p>
         </section>
+        {/* About End */}
+        {/* Location Start */}
         {/* <div className=" my-20 ">
           <img
             className="hover:opacity-50 w-full"
@@ -82,12 +90,10 @@ const HomePage = () => {
             alt="pic of bangalore city"
           />
         </div> */}
-        <div className="mb-14">
-          <Link className="text-3xl  underline" to="/">
-            Event -{`>`}
-          </Link>
-        </div>
+        {/* Location End */}
+        
       </div>
+      {/*Content End  */}
     </div>
   );
 };

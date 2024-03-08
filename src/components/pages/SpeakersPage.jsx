@@ -1,11 +1,14 @@
 import React from "react";
 
+//Custom Components
+import PeopleTray from "../trays/PeopleTray";
+
+//Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
-import PeopleTray from "../trays/PeopleTray";
-
+//Image array
 import speakerImages from "../../resources/images/speakers/getSpeakerImages.js";
 
 const SpeakersPage = () => {
@@ -38,11 +41,6 @@ const SpeakersPage = () => {
           <p className="text-center"> Bangalore Institute of Technology,</p>
           <p className="text-center">KR Road, VV Puram, Bangalore - 560094</p>
         </div>
-      </div>
-      <div className="mb-14">
-        <Link className="text-3xl  underline" to="/">
-          Event -{`>`}
-        </Link>
       </div>
     </div>
   );

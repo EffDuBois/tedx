@@ -1,5 +1,9 @@
 import React from "react";
 
+//Custom components
+import PersonCardDesc from "../cards/PersonCardDesc";
+
+//Images Resources
 import imgPrincipal from "../../resources/images/team/core/principal.webp";
 import imgOrganiser from "../../resources/images/team/core/Shivang_Jha@Organiser.webp";
 import imgMarketing from "../../resources/images/team/core/Ashutosh_Tandon@Head_Of_Marketing.webp";
@@ -13,8 +17,7 @@ import creativeTeamImages from "../../resources/images/team/creative/getImages";
 import marketingTeamImages from "../../resources/images/team/marketing/getImages";
 import photographyTeamImages from "../../resources/images/team/photography/getImages";
 
-import PersonCardDesc from "../cards/PersonCardDesc";
-import { Link } from "react-router-dom";
+
 
 const TeamPage = () => {
   return (
@@ -127,11 +130,6 @@ const TeamPage = () => {
         `}
         teamImages={photographyTeamImages}
       />
-      <div className="mb-14">
-        <Link className="text-3xl  underline" to="/">
-          Event -{`>`}
-        </Link>
-      </div>
     </div>
   );
 };

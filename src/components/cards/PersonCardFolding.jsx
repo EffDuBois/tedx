@@ -1,6 +1,12 @@
 import React from "react";
 
 const PersonCard = (props) => {
+  //list of arguments by the component
+  // src: the image object of the person
+  // name: the name of the person
+  // title: the title of the person
+  // contact: the contact of the person
+  // you can edit the style of the card by passing arguments in the className
   return (
     <div
       className={` bg-rotatingx grow-0 shrink-0 ${props.className}`}

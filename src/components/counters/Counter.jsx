@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 
-const Counter = () => {
+const Counter = (props) => {
+  //Enter date in MM/DD/YYYY format
   const calculateTimeLeft = () => {
-    let year = new Date().getFullYear();
-    let difference = +new Date(`11/25/${year}`) - +new Date();
+    let difference = +new Date(`${props.date}`) - +new Date();
 
     let timeLeft = {};
 

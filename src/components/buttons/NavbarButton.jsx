@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-
+// button in the navbar
 const NavbarButton = (props) => {
   const path = useLocation().pathname;
   return (
